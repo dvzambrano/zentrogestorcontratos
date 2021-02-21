@@ -1,0 +1,14 @@
+
+            case 'tree':
+                $obj = new stdClass();
+                $obj->type = "int";
+                $obj->field = "parentid";
+                if ($request->getParameter('node') == '' || $request->getParameter('node') == 'NULL')
+                    $obj->comparison = "null";
+                else {
+                    $obj->comparison = "eq";
+                    $obj->value = $request->getParameter('node');
+                }
+                $filter[] = $obj;
+                $rows = _BaseTable::getInstance()->getByParent($filter, $request->getParameter('checkeable'));
+                break;

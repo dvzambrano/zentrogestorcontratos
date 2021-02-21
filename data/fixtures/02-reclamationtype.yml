@@ -1,0 +1,19 @@
+Reclamationtype:
+  Impagos:
+    code: "<?php echo md5(strtoupper('Impagos')) ?>"
+    name: 'Impagos'
+  Calidad:
+    code: "<?php echo md5(strtoupper('Calidad')) ?>"
+    name: 'Calidad'
+  Faltante:
+    code: "<?php echo md5(strtoupper('Faltante')) ?>"
+    name: 'Faltante'
+  Sobrante:
+    code: "<?php echo md5(strtoupper('Sobrante')) ?>"
+    name: 'Sobrante'
+  DiferenciaPeso:
+    code: "<?php echo md5(strtoupper('Diferencia en peso')) ?>"
+    name: 'Diferencia en peso'
+  ProductoDiferente:
+    code: "<?php echo md5(strtoupper('Producto diferente al contratado')) ?>"
+    name: 'Producto diferente al contratado'

@@ -1,0 +1,7 @@
+Nationality:
+  Cubana:
+    code: "<?php echo md5(strtoupper('Cubana')) ?>"
+    name: 'Cubana'
+  Espanola:
+    code: "<?php echo md5(strtoupper('Española')) ?>"
+    name: 'Española'

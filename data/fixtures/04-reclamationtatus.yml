@@ -1,0 +1,73 @@
+Calendar:
+  ReclamationAcepted:
+    code: "<?php echo md5(strtoupper('Aceptada')) ?>"
+    name: "Aceptada"
+    color: 26
+  ReclamationRejected:
+    code: "<?php echo md5(strtoupper('Rechazada')) ?>"
+    name: "Rechazada"
+    color: 26
+  ReclamationAnswered:
+    code: "<?php echo md5(strtoupper('Respondida')) ?>"
+    name: "Respondida"
+    color: 26
+  ReclamationInElaboration:
+    code: "<?php echo md5(strtoupper('En Elaboracion')) ?>"
+    name: "En Elaboracion"
+    color: 26
+  ReclamationInTramitation:
+    code: "<?php echo md5(strtoupper('En tramitacion')) ?>"
+    name: "En tramitacion"
+    color: 26
+  ReclamationPendingSenderResponse:
+    code: "<?php echo md5(strtoupper('Pendiente Respuesta del Reclamante')) ?>"
+    name: "Pendiente Respuesta del Reclamante"
+    color: 26
+  ReclamationPendingReceiverResponse:
+    code: "<?php echo md5(strtoupper('Pendiente Respuesta del Reclamado')) ?>"
+    name: "Pendiente Respuesta del Reclamado"
+    color: 26
+  ReclamationCancelled:
+    code: "<?php echo md5(strtoupper('Cancelada')) ?>"
+    name: "Cancelada"
+    color: 26
+
+Reclamationstatus:
+  Acepted:
+    customcolor: '2E8F0C'
+    Calendar: ReclamationAcepted
+    entityid: 44
+  Rejected:
+    customcolor: '8763CA'
+    Calendar: ReclamationRejected
+    entityid: 44
+  Answered:
+    customcolor: 'D5B816'
+    Calendar: ReclamationAnswered
+    iscomplete: 1
+    entityid: 44
+  InElaboration:
+    customcolor: '1A5173'
+    Calendar: ReclamationInElaboration
+    iscomplete: 1
+    entityid: 44
+  InTramitation:
+    customcolor: '64B9D9'
+    Calendar: ReclamationInTramitation
+    issuspended: 1
+    entityid: 44
+  PendingSenderResponse:
+    customcolor: 'F88015'
+    Calendar: ReclamationPendingSenderResponse
+    issuspended: 1
+    entityid: 44
+  PendingReceiverResponse:
+    customcolor: 'F88015'
+    Calendar: ReclamationPendingReceiverResponse
+    issuspended: 1
+    entityid: 44
+  Cancelled:
+    customcolor: 'FA7166'
+    Calendar: ReclamationCancelled
+    issuspended: 1
+    entityid: 44

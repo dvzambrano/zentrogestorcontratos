@@ -1,0 +1,79 @@
+Reminder:
+  ATTIME:
+    code: "<?php echo md5(strtoupper('En el momento de inicio')) ?>"
+    name: 'Al inicio'
+    comment: 'Avisar en el momento de inicio del evento'
+    value: 0
+    period: 1
+  I5TIME:
+    code: "<?php echo md5(strtoupper('5 minutos')) ?>"
+    name: '5 minutos'
+    comment: 'Avisar cinco minutos antes del inicio del evento'
+    value: 5
+    period: 1
+  I15TIME:
+    code: "<?php echo md5(strtoupper('15 minutos')) ?>"
+    name: '15 minutos'
+    comment: 'Avisar quince minutos antes del inicio del evento'
+    value: 15
+    period: 1
+  I30TIME:
+    code: "<?php echo md5(strtoupper('30 minutos')) ?>"
+    name: '30 minutos'
+    comment: 'Avisar media hora antes del inicio del evento'
+    value: 30
+    period: 1
+  H1TIME:
+    code: "<?php echo md5(strtoupper('1 hora')) ?>"
+    name: '1 hora'
+    comment: 'Avisar una hora antes del inicio del evento'
+    value: 1
+    period: 2
+  H2TIME:
+    code: "<?php echo md5(strtoupper('2 horas')) ?>"
+    name: '2 horas'
+    comment: 'Avisar dos horas antes del inicio del evento'
+    value: 2
+    period: 2
+  H12TIME:
+    code: "<?php echo md5(strtoupper('12 horas')) ?>"
+    name: '12 horas'
+    comment: 'Avisar doce horas antes del inicio del evento'
+    value: 12
+    period: 2
+  D1TIME:
+    code: "<?php echo md5(strtoupper('1 dia')) ?>"
+    name: '1 dia'
+    comment: 'Avisar un dia antes del inicio del evento'
+    value: 1
+    period: 3
+  D2TIME:
+    code: "<?php echo md5(strtoupper('2 dias')) ?>"
+    name: '2 dias'
+    comment: 'Avisar dos dias antes del inicio del evento'
+    value: 2
+    period: 3
+  W1TIME:
+    code: "<?php echo md5(strtoupper('1 semana')) ?>"
+    name: '1 semana'
+    comment: 'Avisar una semana antes del inicio del evento'
+    value: 1
+    period: 4
+  W2TIME:
+    code: "<?php echo md5(strtoupper('2 semanas')) ?>"
+    name: '2 semanas'
+    comment: 'Avisar dos semanas antes del inicio del evento'
+    value: 2
+    period: 4
+  M1TIME:
+    code: "<?php echo md5(strtoupper('1 mes')) ?>"
+    name: '1 mes'
+    comment: 'Avisar un mes antes del inicio del evento'
+    value: 1
+    period: 5
+  Y1TIME:
+    code: "<?php echo md5(strtoupper('1 año')) ?>"
+    name: '1 año'
+    comment: 'Avisar un año antes del inicio del evento'
+    value: 1
+    period: 6

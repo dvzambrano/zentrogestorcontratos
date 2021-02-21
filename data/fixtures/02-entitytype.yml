@@ -1,0 +1,91 @@
+Entitytype:
+  Entitytype_1:
+    code: 43d697b158946b77c28d0936999546c8
+    name: Banco
+    comment: null
+    specialcode: BANC
+  Entitytype_2:
+    code: da75009821d937ddf3421e555cdb29f3
+    name: 'Empresa Estatal Socialista'
+    comment: null
+    specialcode: EMP
+  Entitytype_3:
+    code: cc5ca3a3c30b231be55af44259bd8b5a
+    name: 'Organización Política y de Masas'
+    comment: null
+    specialcode: OPM
+  Entitytype_4:
+    code: 95f7c437f1821d148c516091e271b1e5
+    name: Unión
+    comment: null
+    specialcode: U
+  Entitytype_5:
+    code: 5b952f80ce9108cc8410d1a2ec2810a9
+    name: 'Unidad Presupuestada'
+    comment: null
+    specialcode: UP
+  Entitytype_6:
+    code: ae52d61537f92073b09c3188cb25e0e0
+    name: 'Grupo Empresarial'
+    comment: null
+    specialcode: GRUP
+  Entitytype_7:
+    code: d6f515f645395eccfd62483925c4bc8b
+    name: Asociación
+    comment: null
+    specialcode: AS
+  Entitytype_8:
+    code: b4c267b1ce3ad8387b528f1de00539e7
+    name: Otro
+    comment: null
+    specialcode: OTRO
+  Entitytype_9:
+    code: 4ecd7c4526d11281be4b7fdcb3c0d637
+    name: 'Sociedad Mercantil'
+    comment: null
+    specialcode: MERC
+  Entitytype_10:
+    code: e5d7ec9b36bbc8dd2fb05dcd959ecb05
+    name: Sociedad
+    comment: null
+    specialcode: SOCC
+  Entitytype_11:
+    code: 9af81c5c56ae7a12a1ce6fbfad85acb5
+    name: 'Cooperativa No Agropecuaria'
+    comment: null
+    specialcode: CNoA
+  Entitytype_12:
+    code: 1de0e54b22e9cbf3126433cb3f6c8201
+    name: 'Cooperativa de Producción Agropecuaria'
+    comment: null
+    specialcode: CPA
+  Entitytype_13:
+    code: b0395ee71e6b387398fdc136a9004672
+    name: 'Trabajador por Cuenta Propia'
+    comment: null
+    specialcode: TCP
+  Entitytype_14:
+    code: 8fb8a3caebf5907c44452488150362f2
+    name: 'Cooperativa de Créditos y Servicios'
+    comment: null
+    specialcode: CCS
+  Entitytype_15:
+    code: 72ba77239b8d1904255a58f969d6ee5f
+    name: 'Unidad de Base de Producción Cooperativa'
+    comment: null
+    specialcode: UBPC
+  Entitytype_16:
+    code: a3215649fbc7cc4182cc548c10d434f5
+    name: 'Unidad Empresarial de Base'
+    comment: null
+    specialcode: UEB
+  Entitytype_17:
+    code: 483842c585f19aad5bb77e2e87f6e384
+    name: 'Empresa Mixta'
+    comment: null
+    specialcode: EM
+  Entitytype_18:
+    code: 547544f3de6a7037fad8ff24cf654cbd
+    name: 'Persona Natural'
+    comment: null
+    specialcode: PN

@@ -1,0 +1,620 @@
+Module:
+  Charts:
+    code: "<?php echo md5(strtoupper('Gráficos')) ?>"
+    name: 'Gráficos'
+    nick: 'Chart'
+    comment: 'Generador de gráficos del sistema'
+    icon: 'wtop-charts.png'
+    is_base: 1
+    is_active: 0
+    Permissions: [managecharts]
+    increase: '1000000080'
+  Calendar:
+    code: "<?php echo md5(strtoupper('Calendario')) ?>"
+    name: 'Calendario'
+    nick: 'Calendar'
+    comment: 'Visor de eventos del sistema'
+    attributes: '[{"name":"Nombre","nick":"name","type":"string","restriction":"","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":false}]'
+    icon: 'wtop-calendars.png'
+    is_base: 1
+    is_active: 0
+    Permissions: [managecalendar]
+    DependentModules: [Reminder]
+    increase: '1000000090'
+  User:
+    code: "<?php echo md5(strtoupper('Usuarios')) ?>"
+    name: 'Usuarios'
+    nick: 'User'
+    comment: 'Gestión de usuarios del sistema'
+    icon: 'wtop-users.png'
+    is_base: 1
+    Permissions: [manageuser, manageuseradd, manageuseredit, manageuserdelete]
+    DependentModules: [Contacttype]
+    increase: '0000000930'
+  Metadata:
+    code: "<?php echo md5(strtoupper('Configuración')) ?>"
+    name: 'Configuración'
+    nick: 'Metadata'
+    comment: 'Configuraci&oacute;n general del sistema'
+    icon: 'wtop-config.png'
+    is_base: 1
+    Permissions: [manageconfiguration]
+    increase: '0000000940'
+  Logs:
+    code: "<?php echo md5(strtoupper('Trazas')) ?>"
+    name: 'Trazas'
+    nick: 'Log'
+    comment: 'Auditoría de trazas del sistema'
+    icon: 'wtop-logs.png'
+    is_base: 1
+    Permissions: [managelog]
+    increase: '0000000950'
+  Reminder:
+    code: "<?php echo md5(strtoupper('Recordatorio')) ?>"
+    name: 'Recordatorios'
+    nick: 'Reminder'
+    comment: 'Gestión de recordatorios del sistema'
+    attributes: '[{"name":"Nombre","nick":"name","type":"string","restriction":"","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":false},{"name":"Valor","nick":"value","type":"int","restriction":"","nulleable":false},{"name":"Periodo","nick":"period","type":"int","restriction":"","nulleable":false}]'
+    icon: 'wtop-reminders.png'
+    #Module: [Metadata]
+    is_base: 1
+    is_active: 0
+    Permissions: [managecalendar]
+    DependentModules: [User]
+    increase: '0000000100'
+  Module:
+    code: "<?php echo md5(strtoupper('Módulos')) ?>"
+    name: 'Módulos'
+    nick: 'Module'
+    comment: 'Gestión de módulos del sistema'
+    attributes: '[{"name":"Código","nick":"code","type":"string","restriction":"","nulleable":false},{"name":"Nombre","nick":"name","type":"string","restriction":"","nulleable":false},{"name":"Alias","nick":"nick","type":"string","restriction":"","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":false},{"name":"Ícono","nick":"icon","type":"string","restriction":"","nulleable":true}]'
+    icon: 'wtop-modules.png'
+    #Module: [Metadata]
+    is_base: 1
+    is_active: 0
+    Permissions: [managemodule, managemoduleadd, managemoduleedit, managemoduledelete]
+    DependentModules: [User]
+    increase: '1000000140'
+  Contenteditor:
+    code: "<?php echo md5(strtoupper('Editor de contenido')) ?>"
+    name: 'Editor de contenido'
+    nick: 'Contenteditor'
+    comment: 'Editor de contenido'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'page_paintbrush.png'
+    is_base: 1
+    is_active: 0
+    Permissions: [managemodule, managemoduleadd, managemoduleedit, managemoduledelete]
+    DependentModules: [Explorer]
+    increase: '1000000150'
+  Note:
+    code: "<?php echo md5(strtoupper('Editor de notas')) ?>"
+    name: 'Editor de notas'
+    nick: 'Note'
+    comment: 'Editor de notas'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'page_paintbrush.png'
+    is_base: 1
+    is_active: 0
+    Permissions: [managemodule, managemoduleadd, managemoduleedit, managemoduledelete]
+    DependentModules: [Contenteditor]
+    increase: '1000000170'
+  Explorer:
+    code: "<?php echo md5(strtoupper('Explorador')) ?>"
+    name: 'Explorador'
+    nick: 'Explorer'
+    comment: 'Gestión de archivos y carpetas del sistema'
+    attributes: '[{"name":"Nombre","nick":"name","type":"string","restriction":"","nulleable":false},{"name":"Fecha de modificación","nick":"lastmod","type":"string","restriction":"","nulleable":false},{"name":"Tamaño","nick":"size","type":"string","restriction":"","nulleable":false}]'
+    icon: 'wtop-explorer.png'
+    #Module: [Metadata]
+    is_base: 1
+    is_active: 0
+    Permissions: [managefiles]
+    increase: '1000000160'
+  Location:
+    code: "<?php echo md5(strtoupper('Localizaciones')) ?>"
+    name: 'Localizaciones'
+    nick: 'Location'
+    comment: 'Gestión de localizaciones'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"30","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true},{"name":"Padre","nick":"parent","type":"integer","restriction":"","nulleable":true}]'
+    relations: '[{"attributeid":"parent","attribute":"Padre","typeid":"onetomany","type":"Uno a muchos","moduleid":"Location","module":"Ã?rbol paginado"}]'
+    icon: 'flag_orange.png'
+    Permissions: [managelocation, managelocationadd, managelocationedit, managelocationdelete]
+    DependentModules: [Explorer]
+    increase: '0000000300'
+  Entitytype:
+    code: "<?php echo md5(strtoupper('Tipos de entidad')) ?>"
+    name: 'Tipos de entidad'
+    nick: 'Entitytype'
+    comment: 'Gestión de tipos de entidad'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'shape_align_left.png'
+    Permissions: [manageentitytype, manageentitytypeadd, manageentitytypeedit, manageentitytypedelete]
+    increase: '0000000200'
+  Currency:
+    code: "<?php echo md5(strtoupper('Monedas')) ?>"
+    name: 'Monedas'
+    nick: 'Currency'
+    comment: 'Gestión de monedas'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'money.png'
+    Permissions: [managecurrency, managecurrencyadd, managecurrencyedit, managecurrencydelete]
+    increase: '0000000500'
+  Nationality:
+    code: "<?php echo md5(strtoupper('Nacionalidades')) ?>"
+    name: 'Nacionalidades'
+    nick: 'Nationality'
+    comment: 'Gestión de nacionalidades'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'anchor.png'
+    Permissions: [managenationality, managenationalityadd, managenationalityedit, managenationalitydelete]
+    increase: '0000000400'
+  Paymentinstrument:
+    code: "<?php echo md5(strtoupper('Instrumentos de pago')) ?>"
+    name: 'Instrumentos de pago'
+    nick: 'Paymentinstrument'
+    comment: 'Gestión de instrumentos de pago'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'medal_gold_1.png'
+    Permissions: [managepaymentinstrument, managepaymentinstrumentadd, managepaymentinstrumentedit, managepaymentinstrumentdelete]
+    increase: '0000000600'
+  Documenttype:
+    code: "<?php echo md5(strtoupper('Tipos de documentos')) ?>"
+    name: 'Tipos de documentos'
+    nick: 'Documenttype'
+    comment: 'Gestión de tipos de documentos'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'page_white_stack.png'
+    Permissions: [managedocumenttype, managedocumenttypeadd, managedocumenttypeedit, managedocumenttypedelete]
+    increase: '0000000700'
+  Reclamationtype:
+    code: "<?php echo md5(strtoupper('Tipos de reclamaciones')) ?>"
+    name: 'Tipos de reclamaciones'
+    nick: 'Reclamationtype'
+    comment: 'Gestión de tipos de reclamaciones'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'text_signature.png'
+    Permissions: [managereclamationtype, managereclamationtypeadd, managereclamationtypeedit, managereclamationtypedelete]
+    increase: '0000000800'
+  Reclamationstatus:
+    code: "<?php echo md5(strtoupper('Estados de reclamaciones')) ?>"
+    name: 'Estados de reclamaciones'
+    nick: 'Reclamationstatus'
+    comment: 'Gestión de los estados de reclamaciones'
+    attributes: '[{"name":"Código","nick":"code","type":"string","restriction":"","nulleable":false},{"name":"Nombre","nick":"name","type":"string","restriction":"","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":false}]'
+    icon: 'comment.png'
+    is_multientidable: 1
+    is_base: 0
+    Permissions: [managereclamationstatus, managereclamationstatusadd, managereclamationstatusedit, managereclamationstatusdelete]
+    increase: '0000000800'
+  Activity:
+    code: "<?php echo md5(strtoupper('Actividades')) ?>"
+    name: 'Actividades'
+    nick: 'Activity'
+    comment: 'Gestión de actividades'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'book_open.png'
+    Permissions: [manageactivity, manageactivityadd, manageactivityedit, manageactivitydelete]
+    increase: '0000000900'
+  Contracttype:
+    code: "<?php echo md5(strtoupper('Tipos de contrato')) ?>"
+    name: 'Tipos de contrato'
+    nick: 'Contracttype'
+    comment: 'Gestión de tipos de contrato'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'page_white_wrench.png'
+    Permissions: [managecontracttype, managecontracttypeadd, managecontracttypeedit, managecontracttypedelete]
+    increase: '0000000910'
+  Position:
+    code: "<?php echo md5(strtoupper('Cargos')) ?>"
+    name: 'Cargos'
+    nick: 'Position'
+    comment: 'Gestión de cargos'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'vcard.png'
+    is_multientidable: 1
+    Permissions: [manageposition, managepositionadd, managepositionedit, managepositiondelete]
+    increase: '0000000060'
+  Contract:
+    code: "<?php echo md5(strtoupper('Contratos')) ?>"
+    name: 'Contratos'
+    nick: 'Contract'
+    comment: 'Gestión de contratos'
+    attributes: '<?php 
+    echo json_encode(
+            array(
+//                array(
+//                    "ispk" =>true,
+//                    "name" =>"Código",
+//                    "nick" =>"code",
+//                    "mapping" =>"Event",
+//                    "type" =>"string",
+//                    "restriction" =>"50",
+//                    "nulleable" =>false
+//                ),
+                array(
+                    "isak" =>true,
+                    "name" =>"Número del contrato",
+                    "nick" =>"name",
+                    "mapping" =>"Event",
+                    "type" =>"string",
+                    "restriction" =>"130",
+                    "nulleable" =>false
+                ),
+                array(
+                    "name" =>"Fecha de firma del contrato",
+                    "nick" =>"start_with_format",
+                    "mapping" =>"Event",
+                    "type" =>"date",
+                    "restriction" =>"",
+                    "nulleable" =>true
+                ),
+                array(
+                    "name" =>"Fecha de vencimiento del contrato",
+                    "nick" =>"end_with_format",
+                    "mapping" =>"Event",
+                    "type" =>"date",
+                    "restriction" =>"",
+                    "nulleable" =>true
+                ),
+                array(
+                    "name" =>"Objeto del contrato",
+                    "nick" =>"comment",
+                    "mapping" =>"Event",
+                    "type" =>"string",
+                    "restriction" =>"",
+                    "nulleable" =>true
+                )
+            )
+            );
+    ?>'
+    relations: '<?php 
+    echo json_encode(
+            array(
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Fecha de la computadora al generar el documento",
+                    "modulenick" =>'PHP:php,date()',
+                    "moduleattributeid" =>"d/m/Y"
+                ),
+                array(
+                    "attributeid" =>"contracttypeid",
+                    "attribute" =>"Tipo de contrato",
+                    "typeid" =>"onetomany",
+                    "type" =>"Uno a muchos",
+                    "moduleid" =>"Contracttype",
+                    "module" =>"Tipos de contrato",
+                    "moduleattributeid" =>"name",
+                    "moduleattribute" =>"Nombre"
+                ),
+                array(
+                    "attributeid" =>"contractstatusid",
+                    "attribute" =>"Estado del contrato",
+                    "typeid" =>"onetomany",
+                    "type" =>"Uno a muchos",
+                    "moduleid" =>"Contractstatus",
+                    "module" =>"Estados de contrato",
+                    "moduleattributeid" =>"name",
+                    "moduleattribute" =>"Nombre"
+                ),
+                array(
+                    "attributeid" =>"areaid",
+                    "attribute" =>"Área que genera el contrato",
+                    "typeid" =>"onetomany",
+                    "type" =>"Uno a muchos",
+                    "moduleid" =>"Area",
+                    "module" =>"Áreas",
+                    "moduleattributeid" =>"name",
+                    "moduleattribute" =>"Nombre"
+                ),
+                array(
+                    "attributeid" =>"providerid",
+                    "attribute" =>"Denominación/Nombre y Apellidos del proveedor",
+                    "typeid" =>"onetomany",
+                    "type" =>"Uno a muchos",
+                    "moduleid" =>"Entity",
+                    "modulenick" =>"Provider",
+                    "module" =>"Entidades",
+                    "moduleattributeid" =>"name",
+                    "moduleattribute" =>"Nombre"
+                ),
+                array(
+                    "attribute" =>"Firmante por el proveedor",
+                    "modulenick" =>"ProviderUser;Person",
+                    "moduleattributeid" =>"full_name"
+                ),
+                array(
+                    "attribute" =>"Instrumentos de pago",
+                    "modulenick" =>"Paymentinstruments:decode[name],",
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Dirección del proveedor",
+                    "modulenick" =>"Provider",
+                    "moduleattributeid" =>"address"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Localización del proveedor",
+                    "modulenick" =>"Provider;Location",
+                    "moduleattributeid" =>"name"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Nacionalidad del proveedor",
+                    "modulenick" =>"Provider;Nationality",
+                    "moduleattributeid" =>"name"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Abreviatura/Carné de Identidad del proveedor",
+                    "modulenick" =>"Provider",
+                    "moduleattributeid" =>"shortname"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"REEUP/Patente del proveedor",
+                    "modulenick" =>"Provider",
+                    "moduleattributeid" =>"specialcode"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"NIT del proveedor",
+                    "modulenick" =>"Provider",
+                    "moduleattributeid" =>"nit"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"NIT del proveedor",
+                    "modulenick" =>"Provider",
+                    "moduleattributeid" =>"nit"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Cuentas del proveedor",
+                    "modulenick" =>"Provider:decode[name,officetitle,office,accounttitle,account,currencytitle,currency],accounts",
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Contactos del proveedor",
+                    "modulenick" =>'Provider:decode[name,value],contacts',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Constitución del proveedor",
+                    "modulenick" =>'Provider:object[document{name,number,date}],metadatas',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Inscripción en el registro mercantil del proveedor",
+                    "modulenick" =>'Provider:object[reeup{tomotitle,tomo,foliotitle,folio,pagetitle,datetitle,date}],metadatas',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Licencia para operar en divisa del proveedor",
+                    "modulenick" =>'Provider:object[cuc{numbertitle,number,datetitle,date}],metadatas',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Actividades del proveedor",
+                    "modulenick" =>'Provider:decode[name,value],activities',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Forma de pago del proveedor",
+                    "modulenick" =>'Provider:decodeid[name,value],paymentways',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Entrega del proveedor",
+                    "modulenick" =>'Provider:decodeid[name,value],paymentplaces',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Cargo del firmante por el proveedor",
+                    "modulenick" =>"ProviderPosition:decode[name,documenttype,metadata],positions",
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"clientid",
+                    "attribute" =>"Denominación/Nombre y Apellidos del cliente",
+                    "typeid" =>"onetomany",
+                    "type" =>"Uno a muchos",
+                    "moduleid" =>"Entity",
+                    "modulenick" =>"Client",
+                    "module" =>"Entidades",
+                    "moduleattributeid" =>"name",
+                    "moduleattribute" =>"Nombre"
+                ),
+                array(
+                    "attribute" =>"Firmante por el cliente",
+                    "modulenick" =>"ClientUser;Person",
+                    "moduleattributeid" =>"full_name"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Dirección del cliente",
+                    "modulenick" =>"Client",
+                    "moduleattributeid" =>"address"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Localización del cliente",
+                    "modulenick" =>"Client;Location",
+                    "moduleattributeid" =>"name"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Nacionalidad del cliente",
+                    "modulenick" =>"Client;Nationality",
+                    "moduleattributeid" =>"name"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Abreviatura/Carné de Identidad del cliente",
+                    "modulenick" =>"Client",
+                    "moduleattributeid" =>"shortname"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"REEUP/Patente del cliente",
+                    "modulenick" =>"Client",
+                    "moduleattributeid" =>"specialcode"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"NIT del cliente",
+                    "modulenick" =>"Client",
+                    "moduleattributeid" =>"nit"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"NIT del cliente",
+                    "modulenick" =>"Client",
+                    "moduleattributeid" =>"nit"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Cuentas del cliente",
+                    "modulenick" =>"Client:decode[name,officetitle,office,accounttitle,account,currencytitle,currency],accounts",
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Personas autorizadas a comprar y/o firmar facturas",
+                    "modulenick" =>"Client:decode[full_name,Person>comment],persons",
+                    "moduleattributeid" =>"LegalImportant"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Contactos del cliente",
+                    "modulenick" =>'Client:decode[name,value],contacts',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Constitución del cliente",
+                    "modulenick" =>'Client:object[document{name,number,date}],metadatas',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Inscripción en el registro mercantil del cliente",
+                    "modulenick" =>'Client:object[reeup{tomotitle,tomo,foliotitle,folio,pagetitle,datetitle,date}],metadatas',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Licencia para operar en divisa del cliente",
+                    "modulenick" =>'Client:object[cuc{numbertitle,number,datetitle,date}],metadatas',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Actividades del cliente",
+                    "modulenick" =>'Client:decode[name,value],activities',
+                    "moduleattributeid" =>"profile"
+                ),
+                array(
+                    "attributeid" =>"",
+                    "attribute" =>"Cargo del firmante por el cliente",
+                    "modulenick" =>"ClientPosition:decode[name,documenttype,metadata],positions",
+                    "moduleattributeid" =>"profile"
+                )
+            )
+            );
+    ?>'
+    icon: 'page_attach.png'
+    is_multientidable: 1
+    Permissions: [managecontract, managecontractadd, managecontractedit, managecontractdelete]
+    DependentModules: [Entity, Contracttype, Area, Contractstatus, Reclamationstatus, Position, Format, Person, Paymentinstrument, Reclamationtype]
+    increase: '00000000020'
+  Area:
+    code: "<?php echo md5(strtoupper('Áreas')) ?>"
+    name: 'Áreas'
+    nick: 'Area'
+    comment: 'Gestión de áreas'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'door_out.png'
+    is_multientidable: 1
+    Permissions: [managearea, manageareaadd, manageareaedit, manageareadelete]
+    increase: '0000000070'
+  Contacttype:
+    code: "<?php echo md5(strtoupper('Tipos de contacto')) ?>"
+    name: 'Tipos de contacto'
+    nick: 'Contacttype'
+    comment: 'Gestión de tipos de contacto'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'telephone.png'
+    Permissions: [managecontacttype, managecontacttypeadd, managecontacttypeedit, managecontacttypedelete]
+    increase: '0000000920'
+  Contractstatus:
+    code: "<?php echo md5(strtoupper('Estados de contrato')) ?>"
+    name: 'Estados de contrato'
+    nick: 'Contractstatus'
+    comment: 'Gestión de los estados de contrato'
+    attributes: '[{"name":"Código","nick":"code","type":"string","restriction":"","nulleable":false},{"name":"Nombre","nick":"name","type":"string","restriction":"","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":false}]'
+    icon: 'page_paintbrush.png'
+    is_multientidable: 1
+    is_base: 0
+    Permissions: [managecontractstatus, managecontractstatusadd, managecontractstatusedit, managecontractstatusdelete]
+    increase: '0000000040'
+  Entity:
+    code: "<?php echo md5(strtoupper('Entidades')) ?>"
+    name: 'Entidades'
+    comment: 'Gestión de entidades'
+    nick: 'Entity'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true},{"name":"Padre","nick":"parentid","type":"integer","restriction":"","nulleable":true}]'
+    relations: '[{"attributeid":"parentid","attribute":"Padre","typeid":"onetomany","type":"Uno a muchos","moduleid":"Entity","module":"Entidades"}]'
+    icon: 'building.png'
+    is_multientity: 0
+    is_base: 1
+    Permissions: [manageentity, manageentityadd, manageentityedit, manageentitydelete]
+    DependentModules: [Note, Explorer, Contacttype, Location, Entitytype, Currency, Activity, Documenttype, Nationality]
+    increase: '0000000100'
+  Entitymanager:
+    code: "<?php echo md5(strtoupper('Entidad')) ?>"
+    name: 'Entidad'
+    comment: 'Gestión de la entidad'
+    nick: 'Entitymanager'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true},{"name":"Padre","nick":"parentid","type":"integer","restriction":"","nulleable":true}]'
+    relations: '[{"attributeid":"parentid","attribute":"Padre","typeid":"onetomany","type":"Uno a muchos","moduleid":"Entity","module":"Entidades"}]'
+    icon: 'building.png'
+    is_multientidable: 1
+    is_base: 1
+    is_active: 1
+    Permissions: [manageentity, manageselfentity]
+    DependentModules: [Entity, Note]
+    increase: '00000000010'
+  Person:
+    code: "<?php echo md5(strtoupper('Personas')) ?>"
+    name: 'Personas'
+    nick: 'Person'
+    comment: 'Gestión de personas de la entidad'
+    icon: 'user.png'
+    is_multientidable: 1
+    is_base: 1
+    is_active: 1
+    DependentModules: [User, Position, Contacttype, Documenttype]
+    Permissions: [manageperson, managepersonadd, managepersonedit, managepersondelete]
+    increase: '0000000050'
+  Format:
+    code: "<?php echo md5(strtoupper('Plantillas')) ?>"
+    name: 'Plantillas'
+    nick: 'Format'
+    comment: 'Gestión de plantillas'
+    attributes: '[{"ispk":true,"name":"Código","nick":"code","type":"string","restriction":"50","nulleable":false},{"isak":true,"name":"Nombre","nick":"name","type":"string","restriction":"130","nulleable":false},{"name":"Descripción","nick":"comment","type":"string","restriction":"","nulleable":true}]'
+    icon: 'rainbow.png'
+    is_multientidable: 1
+    is_active: 1
+    Permissions: [manageformat, manageformatadd, manageformatedit, manageformatdelete]
+    DependentModules: [Contenteditor]
+    increase: '0000000030'

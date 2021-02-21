@@ -1,0 +1,198 @@
+Metadata:
+  name:
+    name: app_name
+    comment: 'Permite variar el nombre del sistema mostrado el banner superior'
+    value: 'Zentro&reg; Gestor de Contratos'
+    category: 'Sistema'
+    is_visible: 0    
+  defaultlanguaje:
+    name: app_defaultlanguaje
+    comment: 'Define el idioma en que por defecto se cargarán las interfaces del sistema aun cuando pueden ser variadas localmente mediante el uso de la Barra superior.'
+    value: es-Es
+    category: 'Sistema'
+  businessmail:
+    name: app_businessmail
+    comment: 'Permite definir la cuenta de correo que será utilizada para la realización de las transferencias de pago mediante PayPal y para el envío de las notificaciones generadas por el sistema.'
+    value: zentro@nauta.cu
+    category: 'Sistema'
+  sendsystememails:
+    name: app_sendsystememails
+    comment: 'Permite definir si el sistema enviará notificaciones por correo o no'
+    value: false
+    category: 'Sistema'
+  characteramounttofind:
+    name: app_characteramounttofind
+    comment: 'Permite definir a partir de cuántos caracteres se realizan búsquedas'
+    value: 1
+    category: 'Sistema'
+  notificationrefreshperiod:
+    name: app_notificationrefreshperiod
+    comment: 'Permite definir cada cuantos segundos se recargarán los datos del panel de notificaciones'
+    value: 60
+    category: 'Sistema'
+    is_visible: 0 
+  ismultientidable:
+    name: app_ismultientidable
+    comment: 'Permite definir si el sistema debe comportarse como multientidad: 0 (NO ES MULTIENTIDAD), 1 (ES MULTIENTIDAD), 2 (ES MULTIENTIDAD EXCLUSIVO SOLO DE UNA DE ELLAS)'
+    value: 2
+    category: 'Sistema'   
+  multientityid:
+    name: app_multientityid
+    comment: 'Permite definir el id de la entidad base para un sistema con multientidad exclusiva (app_ismultientidable = 2)'
+    value: 44
+    category: 'Sistema' 
+    is_visible: 0      
+  contractnumberformat:
+    name: app_contractnumberformat
+    comment: 'Permite definir el formato que tendrán los números de contrato generados por el sistema'
+    value: 'CB[SEC]/[y]'
+    category: 'Sistema' 
+  suplementnumberformat:
+    name: app_suplementnumberformat
+    comment: 'Permite definir el formato que tendrán los números de contrato generados por el sistema'
+    value: 'CE[SEC]/[y] al [CONTR]'
+    category: 'Sistema' 
+    
+  indexablefiles:
+    name: app_indexablefiles
+    comment: 'Permite definir los tipos de archivos subidos al servidor que seran indexados para búsquedas. Deben ser especificados separados por coma.'
+    value: 'doc,docx,xls,xlsx,pdf'
+    category: 'Archivos'
+    is_visible: 0
+  filereadcontent:
+    name: app_filereadcontent
+    comment: 'Permite definir la forma de leer los contenidos de un archivo. ("text" solo texto y "all" todo el contenido)'
+    value: 'text'
+    category: 'Archivos'
+    is_visible: 0
+  uploadimagedestination:
+    name: app_uploadimagedestination
+    comment: 'Permite definir el lugar donde se desean guardar las imagenes de usuarios del sistema. ("file" como archivos y "db" en la base de datos)'
+    value: file
+    category: 'Archivos'
+  fileintegrity:
+    name: app_fileintegrity
+    comment: 'Establece la suma de chequeo de integridad de los archivos del sistema'
+    value: e527700294aca10721fade67e94d548c
+    category: 'Archivos' 
+    is_visible: 0
+  filemaxsize:
+    name: app_filemaxsize
+    comment: 'Establece el tamaño (en bytes) máximo de los archivos subidos del sistema'
+    value: 5242880
+    category: 'Archivos' 
+    
+  authldapserver:
+    name: app_authldapserver
+    comment: 'Permite definir el Nombre o Dirección IP del servidor LDAP'
+    value: 192.168.3.22
+    category: 'LDAP'
+  authldapsearchinguser:
+    name: app_authldapsearchinguser
+    comment: 'Establece el usuario usado para realizar la conexión con el LDAP'
+    value: administrador
+    category: 'LDAP'
+  authldapsearchinguserpass:
+    name: app_authldapsearchinguserpass
+    comment: 'Establece la contraseña del usuario usado para realizar la conexión con el LDAP'
+    value: C0ntrasenna
+    category: 'LDAP'
+  authldaprootdn:
+    name: app_authldaprootdn
+    comment: 'Establece la ubicación del usuario de búsqueda en el LDAP'
+    value: 'CN=Users,DC=domain,DC=com'
+    category: 'LDAP'
+  authldapfilterdn:
+    name: app_authldapfilterdn
+    comment: 'Establece la ubicación de los usuarios en el LDAP'
+    value: 'OU=Unit,DC=domain,DC=com'
+    category: 'LDAP'
+    
+  showgridtitle:
+    name: app_showgridtitle
+    comment: 'Permite personalizar las vistas de las interfaces de gestión usando o no los títulos en las tablas.'
+    value: true
+    category: 'Tablas de datos'
+  elementsongrid:
+    name: app_elementsongrid
+    comment: 'Establece la cantidad de elementos a mostrar en una página de interfaz tabular correspondiente al área de trabajo. De esta forma el sistema se encarga de generar la paginación que entre otras cosas permite elevar el rendimiento de las consultas realizadas a las bases de datos.'
+    value: 20
+    category: 'Tablas de datos'
+    
+  showmessageonformloadposition:
+    name: app_showmessageonformloadposition
+    comment: 'Permite establecer cómo el sistema mostrará mensajes de notificación (top: notificacion superior, window: en una ventana de información).'
+    value: 'top'
+    category: 'Notificaciones'
+  showmessageonstoreloadsuccessful:
+    name: app_showmessageonstoreloadsuccessful
+    comment: 'Permite establecer si el sistema mostrará mensajes de notificación cuando se hayan cargado satisfactoriamente las fuentes de datos'
+    value: false
+    category: 'Notificaciones'
+  showmessageonstoreloadfailed:
+    name: app_showmessageonstoreloadfailed
+    comment: 'Permite establecer si el sistema mostrará mensajes de notificación cuando NO se hayan cargado satisfactoriamente las fuentes de datos'
+    value: true
+    category: 'Notificaciones'
+  showmessageonformloadsuccessful:
+    name: app_showmessageonformloadsuccessful
+    comment: 'Permite establecer si el sistema mostrará mensajes de notificación cuando se hayan cargado datos a un formulario satisfactoriamente'
+    value: false
+    category: 'Notificaciones'
+  showmessageonformloadfailed:
+    name: app_showmessageonformloadfailed
+    comment: 'Permite establecer si el sistema mostrará mensajes de notificación cuando NO se hayan cargado datos a un formulario satisfactoriamente'
+    value: true
+    category: 'Notificaciones'
+  showmessageonmoduleloadsuccessful:
+    name: app_showmessageonmoduleloadsuccessful
+    comment: 'Permite establecer si el sistema mostrará mensajes de notificación cuando se active un módulo satisfactoriamente'
+    value: true
+    category: 'Notificaciones'
+    
+  mailhost:
+    name: app_mailhost
+    comment: 'Establece el Nombre o la Dirección IP del servidor de correo'
+    value: 10.0.0.1
+    category: 'Correo'
+  mailhostport:
+    name: app_mailhostport
+    comment: 'Establece el Puerto por el que escucha el servidor de correo'
+    value: 25
+    category: 'Correo'
+  mailencryption:
+    name: app_mailencryption
+    comment: 'Establece el Tipo de Encriptado utilizado por el servidor de correo: ~, ssl, tls'
+    value: '~'
+    category: 'Correo'
+  mailusername:
+    name: app_mailusername
+    comment: 'Establece el Usuario de correo utilizado para enviar las notificaciones'
+    value: 'administrador@domain.com'
+    category: 'Correo'
+  mailpassword:
+    name: app_mailpassword
+    comment: 'Establece el la Contraseña del usuario de correo utilizado para enviar las notificaciones'
+    value: 'C0ntrasenna'
+    category: 'Correo'
+  mailstrategy:
+    name: app_mailstrategy
+    comment: 'Establece el la estrategia de envío de correos notificaciones: "queue" (sin comillas) para encolarlos y enviarlos mediante tarea programada del sistema y "realtime" (sin comillas) para entrega en tiempo real'
+    value: 'queue'
+    category: 'Correo'
+    
+  unsuccessfulloginattempts:
+    name: app_unsuccessfulloginattempts
+    comment: 'Permite definir la cantidad de intentos de autenticación fallidos antes de bloquear el acceso al usuario'
+    value: 3
+    category: 'Seguridad'
+  lockaccountfor:
+    name: app_lockaccountfor
+    comment: 'Permite definir el tiempo en segundos por el que se bloquea a los usuarios que superan el máximo de intentos fallidos de autenticación'
+    value: 300
+    category: 'Seguridad'
+  authmode:
+    name: app_authmode
+    comment: 'Establece el tipo de autenticación a usar en el sistema: "local" (sin comillas) para usar la base de datos, "ldap" (sin comillas) para usar un directorio activo y "mixed" (sin comillas) para combinar ambos métodos'
+    value: local
+    category: 'Seguridad' 

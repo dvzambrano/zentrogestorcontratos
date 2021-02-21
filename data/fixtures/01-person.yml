@@ -1,0 +1,17 @@
+Person:
+  User_admin:
+    code: "81092719101"
+    comment: "81092719101"
+    picture: './uploads/avatars/cutemale.png'
+    profile: '{"contacts":[],"positions":[],"legalrepresentant":true,"legalimportant":false}'
+    sfGuardUser: [User_admin]
+  User_advanced:
+    code: "69100514261"
+    comment: "69100514261"
+    profile: '{"contacts":[],"positions":[],"legalrepresentant":false,"legalimportant":true}'
+    sfGuardUser: [User_advanced]
+  User_basic:
+    code: "73062011688"
+    comment: "73062011688"
+    profile: '{"contacts":[],"positions":[],"legalrepresentant":false,"legalimportant":true}'
+    sfGuardUser: [User_basic]

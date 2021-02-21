@@ -1,0 +1,74 @@
+Calendar:
+  Created:
+    code: "<?php echo md5(strtoupper('En edición')) ?>"
+    name: En edición
+    comment: 'Este estado se usa para contratos en proceso de creación'
+    color: 6
+  InProgress:
+    code: "<?php echo md5(strtoupper('En ejecución')) ?>"
+    name: En ejecución
+    comment: 'Este estado se usa para contratos que se encuentran vigentes ydeben estarse ejecutando según sus fechas'
+    color: 11
+  Finished:
+    code: "<?php echo md5(strtoupper('Ejecutado')) ?>"
+    name: Ejecutado
+    comment: 'Este estado se usa para contratos que se han terminado o cumplido'
+    color: 16
+  Closed:
+    code: "<?php echo md5(strtoupper('Cerrado')) ?>"
+    name: Cerrado
+    comment: 'Este estado se usa para contratos que se han terminado o incumplido para evaluar el resultado'
+    color: 21
+  Rejected:
+    code: "<?php echo md5(strtoupper('Cancelado')) ?>"
+    name: Cancelado
+    comment: 'Este estado se usa para contratos que no se han ejecutado'
+    color: 26
+
+Contractstatus:
+  Created:
+    customcolor: '2E8F0C'
+    Calendar: Created
+    entityid: 44
+  InProgress:
+    customcolor: '8763CA'
+    Calendar: InProgress
+    entityid: 44
+  Finished:
+    customcolor: 'D5B816'
+    Calendar: Finished
+    iscomplete: 1
+    entityid: 44
+  Closed:
+    customcolor: '1A5173'
+    Calendar: Closed
+    iscomplete: 1
+    entityid: 44
+  Rejected:
+    customcolor: 'FA7166'
+    Calendar: Rejected
+    issuspended: 1
+    entityid: 44
+    
+ContractstatusRelation:
+  Created-InProgress:
+    FromContractstatus: Created
+    ToContractstatus: InProgress
+  Created-Rejected:
+    FromContractstatus: Created
+    ToContractstatus: Rejected
+    
+  InProgress-Finished:
+    FromContractstatus: InProgress
+    ToContractstatus: Finished
+    
+  Finished-Closed:
+    FromContractstatus: Finished
+    ToContractstatus: Closed
+    
+  Rejected-InProgress:
+    FromContractstatus: Rejected
+    ToContractstatus: InProgress
+  Rejected-Closed:
+    FromContractstatus: Rejected
+    ToContractstatus: Closed

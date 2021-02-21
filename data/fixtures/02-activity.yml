@@ -1,0 +1,1530 @@
+Activity:
+  1:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de alimentos y bebidas mediante servicio gastronomico en Restaurantes (Paladares).')) ?>"
+    name: "Elaborador vendedor de alimentos y bebidas mediante servicio gastronomico en Restaurantes (Paladares)."
+
+
+    #amount: 700
+    #fixed: 1
+    #Activitygroup: [I]
+  2:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de alimentos y bebidas no alcoholicas a domicilio.')) ?>"
+    name: "Elaborador vendedor de alimentos y bebidas no alcoholicas a domicilio."
+
+
+    #amount: 250
+    #fixed: 1
+    #Activitygroup: [I]
+  3:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de alimentos y bebidas en punto fijo de venta (Cafeteria).')) ?>"
+    name: "Elaborador vendedor de alimentos y bebidas en punto fijo de venta (Cafeteria)."
+
+
+    #amount: 400
+    #fixed: 1
+    #Activitygroup: [I]
+  4:
+    code: "<?php echo md5(strtoupper('Cafeteria de alimentos ligeros.')) ?>"
+    name: "Cafeteria de alimentos ligeros."
+
+
+    #amount: 200
+    #fixed: 1
+    #Activitygroup: [I]
+  5:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de vinos.')) ?>"
+    name: "Elaborador vendedor de vinos."
+
+
+    #amount: 120
+    #fixed: 1
+    #Activitygroup: [I]
+  6:
+    code: "<?php echo md5(strtoupper('Vendedor mayorista de productos agropecuarios.')) ?>"
+    name: "Vendedor mayorista de productos agropecuarios."
+
+
+    #amount: 500
+    #fixed: 1
+    #Activitygroup: [I]
+  7:
+    code: "<?php echo md5(strtoupper('Vendedor minorista de productos agropecuarios.')) ?>"
+    name: "Vendedor minorista de productos agropecuarios."
+
+
+    #amount: 300
+    #fixed: 1
+    #Activitygroup: [I]
+  8:
+    code: "<?php echo md5(strtoupper('Artesano.')) ?>"
+    name: "Artesano."
+
+
+    #amount: 300
+    #fixed: 1
+    #Activitygroup: [II]
+  9:
+    code: "<?php echo md5(strtoupper('Constructor vendedor o reparador de articulos de mimbre.')) ?>"
+    name: "Constructor vendedor o reparador de articulos de mimbre."
+
+
+    #amount: 70
+    #fixed: 1
+    #Activitygroup: [II]
+  10:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de jabon, betun, tintas y otros similares.')) ?>"
+    name: "Elaborador vendedor de jabon, betun, tintas y otros similares."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [II]
+  11:
+    code: "<?php echo md5(strtoupper('Productor vendedor de accesorios de goma.')) ?>"
+    name: "Productor vendedor de accesorios de goma."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [II]
+  12:
+    code: "<?php echo md5(strtoupper('Productor vendedor de articulos de alfareria.')) ?>"
+    name: "Productor vendedor de articulos de alfareria."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [II]
+  13:
+    code: "<?php echo md5(strtoupper('Productor vendedor de articulos de fundicion no ferrosa.')) ?>"
+    name: "Productor vendedor de articulos de fundicion no ferrosa."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [II]
+  14:
+    code: "<?php echo md5(strtoupper('Productor vendedor de articulos religiosos (excepto las piezas que tengan valor patrimonial segun regula el Ministerio de Cultura) o vendedor de animales para estos fines.')) ?>"
+    name: "Productor vendedor de articulos religiosos (excepto las piezas que tengan valor patrimonial segun regula el Ministerio de Cultura) o vendedor de animales para estos fines."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [II]
+  15:
+    code: "<?php echo md5(strtoupper('Productor vendedor de bisuteria de metal y recursos naturales.')) ?>"
+    name: "Productor vendedor de bisuteria de metal y recursos naturales."
+
+
+    #amount: 300
+    #fixed: 1
+    #Activitygroup: [II]
+  16:
+    code: "<?php echo md5(strtoupper('Productor vendedor de calzado.')) ?>"
+    name: "Productor vendedor de calzado."
+
+
+    #amount: 400
+    #fixed: 1
+    #Activitygroup: [II]
+  17:
+    code: "<?php echo md5(strtoupper('Talabartero.')) ?>"
+    name: "Talabartero."
+
+
+    #amount: 50
+    #fixed: 1
+    #Activitygroup: [II]
+  18:
+    code: "<?php echo md5(strtoupper('Alquiler de trajes.')) ?>"
+    name: "Alquiler de trajes."
+
+
+    #amount: 250
+    #fixed: 1
+    #Activitygroup: [III]
+  19:
+    code: "<?php echo md5(strtoupper('Aserrador.')) ?>"
+    name: "Aserrador."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  20:
+    code: "<?php echo md5(strtoupper('Barbero.')) ?>"
+    name: "Barbero."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  21:
+    code: "<?php echo md5(strtoupper('Bordadora - tejedora.')) ?>"
+    name: "Bordadora - tejedora."
+
+
+    #amount: 40
+    #fixed: 1
+    #Activitygroup: [III]
+  22:
+    code: "<?php echo md5(strtoupper('Cantero.')) ?>"
+    name: "Cantero."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  23:
+    code: "<?php echo md5(strtoupper('Chapistero.')) ?>"
+    name: "Chapistero."
+
+
+    #amount: 300
+    #fixed: 1
+    #Activitygroup: [III]
+  24:
+    code: "<?php echo md5(strtoupper('Chapistero de bienes muebles.')) ?>"
+    name: "Chapistero de bienes muebles."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  25:
+    code: "<?php echo md5(strtoupper('Decorador.')) ?>"
+    name: "Decorador."
+
+
+    #amount: 150
+    #fixed: 1
+    #Activitygroup: [III]
+  26:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de articulos de marmol.')) ?>"
+    name: "Elaborador vendedor de articulos de marmol."
+
+
+    #amount: 250
+    #fixed: 1
+    #Activitygroup: [III]
+  27:
+    code: "<?php echo md5(strtoupper('Electricista automotriz.')) ?>"
+    name: "Electricista automotriz."
+
+
+    #amount: 150
+    #fixed: 1
+    #Activitygroup: [III]
+  28:
+    code: "<?php echo md5(strtoupper('Enrollador de motores, bobinas, y otros equipos.')) ?>"
+    name: "Enrollador de motores, bobinas, y otros equipos."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  29:
+    code: "<?php echo md5(strtoupper('Fotografo.')) ?>"
+    name: "Fotografo."
+
+
+    #amount: 200
+    #fixed: 1
+    #Activitygroup: [III]
+  30:
+    code: "<?php echo md5(strtoupper('Fundidor.')) ?>"
+    name: "Fundidor."
+
+
+    #amount: 50
+    #fixed: 1
+    #Activitygroup: [III]
+  31:
+    code: "<?php echo md5(strtoupper('Herrero.')) ?>"
+    name: "Herrero."
+
+
+    #amount: 50
+    #fixed: 1
+    #Activitygroup: [III]
+  32:
+    code: "<?php echo md5(strtoupper('Manicura.')) ?>"
+    name: "Manicura."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  33:
+    code: "<?php echo md5(strtoupper('Maquillista.')) ?>"
+    name: "Maquillista."
+
+
+    #amount: 45
+    #fixed: 1
+    #Activitygroup: [III]
+  34:
+    code: "<?php echo md5(strtoupper('Mecanico de equipos de refrigeracion.')) ?>"
+    name: "Mecanico de equipos de refrigeracion."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  35:
+    code: "<?php echo md5(strtoupper('Oxicortador.')) ?>"
+    name: "Oxicortador."
+
+
+    #amount: 45
+    #fixed: 1
+    #Activitygroup: [III]
+  36:
+    code: "<?php echo md5(strtoupper('Organizador de servicios integrales para fiestas de quince, bodas y otras actividades.')) ?>"
+    name: "Organizador de servicios integrales para fiestas de quince, bodas y otras actividades."
+
+
+    #amount: 300
+    #fixed: 1
+    #Activitygroup: [III]
+  37:
+    code: "<?php echo md5(strtoupper('Peluquera.')) ?>"
+    name: "Peluquera."
+
+
+    #amount: 150
+    #fixed: 1
+    #Activitygroup: [III]
+  38:
+    code: "<?php echo md5(strtoupper('Peluquero de animales domesticos.')) ?>"
+    name: "Peluquero de animales domesticos."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  39:
+    code: "<?php echo md5(strtoupper('Pintor automotriz.')) ?>"
+    name: "Pintor automotriz."
+
+
+    #amount: 300
+    #fixed: 1
+    #Activitygroup: [III]
+  40:
+    code: "<?php echo md5(strtoupper('Pintor de bienes muebles o barnizador.')) ?>"
+    name: "Pintor de bienes muebles o barnizador."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [III]
+  41:
+    code: "<?php echo md5(strtoupper('Pintor rotulista.')) ?>"
+    name: "Pintor rotulista."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  42:
+    code: "<?php echo md5(strtoupper('Productor vendedor o recolector vendedor de articulos de alfareria u otros materiales con fines constructivos.')) ?>"
+    name: "Productor vendedor o recolector vendedor de articulos de alfareria u otros materiales con fines constructivos."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  43:
+    code: "<?php echo md5(strtoupper('Pulidor de metales.')) ?>"
+    name: "Pulidor de metales."
+
+
+    #amount: 40
+    #fixed: 1
+    #Activitygroup: [III]
+  44:
+    code: "<?php echo md5(strtoupper('Reparador de articulos de joyeria.')) ?>"
+    name: "Reparador de articulos de joyeria."
+
+
+    #amount: 200
+    #fixed: 1
+    #Activitygroup: [III]
+  45:
+    code: "<?php echo md5(strtoupper('Reparador de colchones.')) ?>"
+    name: "Reparador de colchones."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  46:
+    code: "<?php echo md5(strtoupper('Reparador de enseres menores.')) ?>"
+    name: "Reparador de enseres menores."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  47:
+    code: "<?php echo md5(strtoupper('Reparador de equipos electricos y electronicos.')) ?>"
+    name: "Reparador de equipos electricos y electronicos."
+
+
+    #amount: 90
+    #fixed: 1
+    #Activitygroup: [III]
+  48:
+    code: "<?php echo md5(strtoupper('Reparador de equipos mecanicos y de combustion.')) ?>"
+    name: "Reparador de equipos mecanicos y de combustion."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  49:
+    code: "<?php echo md5(strtoupper('Soldador.')) ?>"
+    name: "Soldador."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  50:
+    code: "<?php echo md5(strtoupper('Tapicero.')) ?>"
+    name: "Tapicero."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [III]
+  51:
+    code: "<?php echo md5(strtoupper('Tornero.')) ?>"
+    name: "Tornero."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [III]
+  52:
+    code: "<?php echo md5(strtoupper('Restaurador de obras de arte.')) ?>"
+    name: "Restaurador de obras de arte."
+
+
+    #amount: 250
+    #fixed: 1
+    #Activitygroup: [III]
+  53:
+    code: "<?php echo md5(strtoupper('Anticuario.')) ?>"
+    name: "Anticuario."
+
+
+    #amount: 400
+    #fixed: 1
+    #Activitygroup: [III]
+  54:
+    code: "<?php echo md5(strtoupper('Arrendamiento de viviendas (por habitacion). Modalidad CUC.')) ?>"
+    name: "Arrendamiento de viviendas (por habitacion). Modalidad CUC."
+
+
+    #amount: 750
+    #fixed: 1
+    #Activitygroup: [IV]
+  55:
+    code: "<?php echo md5(strtoupper('Arrendamiento de viviendas (por habitacion). Modalidad CUP.')) ?>"
+    name: "Arrendamiento de viviendas (por habitacion). Modalidad CUP."
+
+
+    #amount: 30
+    #fixed: 1
+    #Activitygroup: [IV]
+  56:
+    code: "<?php echo md5(strtoupper('Arrendamiento de habitaciones (por habitacion). Modalidad CUC.')) ?>"
+    name: "Arrendamiento de habitaciones (por habitacion). Modalidad CUC."
+
+
+    #amount: 875
+    #fixed: 1
+    #Activitygroup: [IV]
+  57:
+    code: "<?php echo md5(strtoupper('Arrendamiento de habitaciones (por habitacion). Modalidad CUP.')) ?>"
+    name: "Arrendamiento de habitaciones (por habitacion). Modalidad CUP."
+
+
+    #amount: 40
+    #fixed: 1
+    #Activitygroup: [IV]
+  58:
+    code: "<?php echo md5(strtoupper('Arrendamiento de espacios: Garaje (Uno). Modalidad CUC.')) ?>"
+    name: "Arrendamiento de espacios: Garaje (Uno). Modalidad CUC."
+
+
+    #amount: 125
+    #fixed: 1
+    #Activitygroup: [IV]
+  59:
+    code: "<?php echo md5(strtoupper('Arrendamiento de espacios: Garaje (Uno). Modalidad CUP.')) ?>"
+    name: "Arrendamiento de espacios: Garaje (Uno). Modalidad CUP."
+
+
+    #amount: 25
+    #fixed: 1
+    #Activitygroup: [IV]
+  60:
+    code: "<?php echo md5(strtoupper('Arrendamiento de espacios: Piscina (Por m2). Modalidad CUC.')) ?>"
+    name: "Arrendamiento de espacios: Piscina (Por m2). Modalidad CUC."
+
+
+    #amount: 125
+    #fixed: 1
+    #Activitygroup: [IV]
+  61:
+    code: "<?php echo md5(strtoupper('Arrendamiento de espacios: Piscina (Por m2). Modalidad CUP.')) ?>"
+    name: "Arrendamiento de espacios: Piscina (Por m2). Modalidad CUP."
+
+
+    #amount: 40
+    #fixed: 1
+    #Activitygroup: [IV]
+  62:
+    code: "<?php echo md5(strtoupper('Arrendamiento de espacios: Otros espacios. Modalidad CUC.')) ?>"
+    name: "Arrendamiento de espacios: Otros espacios. Modalidad CUC."
+
+
+    #amount: 200
+    #fixed: 1
+    #Activitygroup: [IV]
+  63:
+    code: "<?php echo md5(strtoupper('Arrendamiento de espacios: Otros espacios. Modalidad CUP.')) ?>"
+    name: "Arrendamiento de espacios: Otros espacios. Modalidad CUP."
+
+
+    #amount: 70
+    #fixed: 1
+    #Activitygroup: [IV]
+  63:
+    code: "<?php echo md5(strtoupper('Alquiler de animales.')) ?>"
+    name: "Alquiler de animales."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [V]
+  64:
+    code: "<?php echo md5(strtoupper('Animador de fiestas, payasos o magos.')) ?>"
+    name: "Animador de fiestas, payasos o magos."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [V]
+  65:
+    code: "<?php echo md5(strtoupper('Servicio de coche de uso infantil tirado por animales.')) ?>"
+    name: "Servicio de coche de uso infantil tirado por animales."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [V]
+  66:
+    code: "<?php echo md5(strtoupper('Criador vendedor de animales afectivos.')) ?>"
+    name: "Criador vendedor de animales afectivos."
+
+
+    #amount: 60
+    #fixed: 1
+    #Activitygroup: [V]
+  67:
+    code: "<?php echo md5(strtoupper('Instructor de practicas deportivas.')) ?>"
+    name: "Instructor de practicas deportivas."
+
+
+    #amount: 150
+    #fixed: 1
+    #Activitygroup: [V]
+  68:
+    code: "<?php echo md5(strtoupper('Operador de audio.')) ?>"
+    name: "Operador de audio."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [V]
+  69:
+    code: "<?php echo md5(strtoupper('Operador de equipos de recreacion.')) ?>"
+    name: "Operador de equipos de recreacion."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [V]
+  70:
+    code: "<?php echo md5(strtoupper('Productor, recolector vendedor de hierbas para alimento animal o Productor, recolector vendedor de hierbas medicinales.')) ?>"
+    name: "Productor, recolector vendedor de hierbas para alimento animal o Productor, recolector vendedor de hierbas medicinales."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [V]
+  71:
+    code: "<?php echo md5(strtoupper('Productor vendedor de flores y plantas ornamentales.')) ?>"
+    name: "Productor vendedor de flores y plantas ornamentales."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [V]
+  72:
+    code: "<?php echo md5(strtoupper('Profesor de musica y otras artes.')) ?>"
+    name: "Profesor de musica y otras artes."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [V]
+  73:
+    code: "<?php echo md5(strtoupper('Programador de equipos de computo.')) ?>"
+    name: "Programador de equipos de computo."
+    #onatcode: 607
+    #mtsscode: 103
+    #amount: 80
+    #fixed: 1
+    comment: "Res. Org. Rector: 42/2013. Res. MFP: 353/2013."
+    #Activitygroup: [V]
+  74:
+    code: "<?php echo md5(strtoupper('Gestor de permutas y compra-venta de viviendas.')) ?>"
+    name: "Gestor de permutas y compra-venta de viviendas."
+
+
+    #amount: 500
+    #fixed: 1
+    #Activitygroup: [V]
+  75:
+    code: "<?php echo md5(strtoupper('Albañil.')) ?>"
+    name: "Albañil."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [VI]
+  76:
+    code: "<?php echo md5(strtoupper('Carpintero.')) ?>"
+    name: "Carpintero."
+
+
+    #amount: 200
+    #fixed: 1
+    #Activitygroup: [VI]
+  77:
+    code: "<?php echo md5(strtoupper('Cristalero.')) ?>"
+    name: "Cristalero."
+
+
+    #amount: 70
+    #fixed: 1
+    #Activitygroup: [VI]
+  78:
+    code: "<?php echo md5(strtoupper('Electricista.')) ?>"
+    name: "Electricista."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [VI]
+  79:
+    code: "<?php echo md5(strtoupper('Plomero.')) ?>"
+    name: "Plomero."
+
+
+    #amount: 80
+    #fixed: 1
+    #Activitygroup: [VI]
+  80:
+    code: "<?php echo md5(strtoupper('Pulidor de Pisos.')) ?>"
+    name: "Pulidor de Pisos."
+
+
+    #amount: 40
+    #fixed: 1
+    #Activitygroup: [VI]
+  81:
+    code: "<?php echo md5(strtoupper('Granitero.')) ?>"
+    name: "Granitero."
+
+
+    #amount: 150
+    #fixed: 1
+    #Activitygroup: [VI]
+  82:
+    code: "<?php echo md5(strtoupper('Servicios de construccion, reparacion y mantenimiento de inmuebles.')) ?>"
+    name: "Servicios de construccion, reparacion y mantenimiento de inmuebles."
+
+
+    #amount: 400
+    #fixed: 1
+    #Activitygroup: [VI]
+  82:
+    code: "<?php echo md5(strtoupper('Transporte de carga con medios de traccion de motor con capacidad de: Hasta una tonelada.')) ?>"
+    name: "Transporte de carga con medios de traccion de motor con capacidad de: Hasta una tonelada."
+
+
+    #amount: 75
+    #fixed: 1
+    #Activitygroup: [VII]
+  83:
+    code: "<?php echo md5(strtoupper('Transporte de carga con medios de traccion de motor con capacidad de: Mas de una y hasta tres toneladas.')) ?>"
+    name: "Transporte de carga con medios de traccion de motor con capacidad de: Mas de una y hasta tres toneladas."
+
+
+    #amount: 150
+    #fixed: 1
+    #Activitygroup: [VII]
+  84:
+    code: "<?php echo md5(strtoupper('Transporte de carga con medios de traccion de motor con capacidad de: Mas de tres y hasta diez toneladas.')) ?>"
+    name: "Transporte de carga con medios de traccion de motor con capacidad de: Mas de tres y hasta diez toneladas."
+
+
+    #amount: 350
+    #fixed: 1
+    #Activitygroup: [VII]
+  85:
+    code: "<?php echo md5(strtoupper('Transporte de carga con medios de traccion de motor con capacidad de: Mas de diez y hasta veinte toneladas.')) ?>"
+    name: "Transporte de carga con medios de traccion de motor con capacidad de: Mas de diez y hasta veinte toneladas."
+
+
+    #amount: 350
+    #fixed: 1
+    #Activitygroup: [VII]
+  86:
+    code: "<?php echo md5(strtoupper('Transporte de carga con medios de traccion de motor con capacidad de: Mas de veinte toneladas.')) ?>"
+    name: "Transporte de carga con medios de traccion de motor con capacidad de: Mas de veinte toneladas."
+
+
+    #amount: 450
+    #fixed: 1
+    #Activitygroup: [VII]
+  87:
+    code: "<?php echo md5(strtoupper('Transporte de carga en lanchas o botes.')) ?>"
+    name: "Transporte de carga en lanchas o botes."
+
+
+    #amount: 30
+    #fixed: 1
+    #Activitygroup: [VII]
+  88:
+    code: "<?php echo md5(strtoupper('Transporte de pasajeros con medios de traccion de motor con capacidad de: Hasta seis pasajeros.')) ?>"
+    name: "Transporte de pasajeros con medios de traccion de motor con capacidad de: Hasta seis pasajeros."
+
+
+    #amount: 350
+    #fixed: 1
+    #Activitygroup: [VII]
+  89:
+    code: "<?php echo md5(strtoupper('Transporte de pasajeros con medios de traccion de motor con capacidad de: Mas de seis y hasta quince pasajeros.')) ?>"
+    name: "Transporte de pasajeros con medios de traccion de motor con capacidad de: Mas de seis y hasta quince pasajeros."
+
+
+    #amount: 450
+    #fixed: 1
+    #Activitygroup: [VII]
+  90:
+    code: "<?php echo md5(strtoupper('Transporte de pasajeros con medios de traccion de motor con capacidad de: Mas de quince pasajeros.')) ?>"
+    name: "Transporte de pasajeros con medios de traccion de motor con capacidad de: Mas de quince pasajeros."
+
+
+    #amount: 575
+    #fixed: 1
+    #Activitygroup: [VII]
+  91:
+    code: "<?php echo md5(strtoupper('Transporte de pasajeros en lanchas o botes.')) ?>"
+    name: "Transporte de pasajeros en lanchas o botes."
+
+
+    #amount: 30
+    #fixed: 1
+    #Activitygroup: [VII]
+  92:
+    code: "<?php echo md5(strtoupper('Transporte de pasajeros con medios de traccion animal.')) ?>"
+    name: "Transporte de pasajeros con medios de traccion animal."
+
+
+    #amount: 100
+    #fixed: 1
+    #Activitygroup: [VII]
+  93:
+    code: "<?php echo md5(strtoupper('Transporte de pasajeros en motos.')) ?>"
+    name: "Transporte de pasajeros en motos."
+
+
+    #amount: 250
+    #fixed: 1
+    #Activitygroup: [VII]
+  94:
+    code: "<?php echo md5(strtoupper('Afinador y reparador de instrumentos musicales.')) ?>"
+    name: "Afinador y reparador de instrumentos musicales."
+
+
+    #amount: 90
+    #fixed: 1
+    
+  95:
+    code: "<?php echo md5(strtoupper('Agente de Seguros.')) ?>"
+    name: "Agente de Seguros."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  96:
+    code: "<?php echo md5(strtoupper('Aguador.')) ?>"
+    name: "Aguador."
+
+
+    #amount: 70
+    #fixed: 1
+    
+  97:
+    code: "<?php echo md5(strtoupper('Amolador.')) ?>"
+    name: "Amolador."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  98:
+    code: "<?php echo md5(strtoupper('Arriero.')) ?>"
+    name: "Arriero."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  99:
+    code: "<?php echo md5(strtoupper('Boyero o carretero.')) ?>"
+    name: "Boyero o carretero."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  100:
+    code: "<?php echo md5(strtoupper('Carretillero o vendedor de productos agricolas en forma ambulatoria.')) ?>"
+    name: "Carretillero o vendedor de productos agricolas en forma ambulatoria."
+
+
+    #amount: 70
+    #fixed: 1
+    
+  101:
+    code: "<?php echo md5(strtoupper('Cerrajero.')) ?>"
+    name: "Cerrajero."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  102:
+    code: "<?php echo md5(strtoupper('Cobrador pagador.')) ?>"
+    name: "Cobrador pagador."
+
+
+    #amount: 100
+    #fixed: 1
+    
+  103:
+    code: "<?php echo md5(strtoupper('Comprador vendedor de discos.')) ?>"
+    name: "Comprador vendedor de discos."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  103:
+    code: "<?php echo md5(strtoupper('Comprador vendedor de libros de uso.')) ?>"
+    name: "Comprador vendedor de libros de uso."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  104:
+    code: "<?php echo md5(strtoupper('Constructor vendedor o montador de antenas de radio y television.')) ?>"
+    name: "Constructor vendedor o montador de antenas de radio y television."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  105:
+    code: "<?php echo md5(strtoupper('Cuidador de animales.')) ?>"
+    name: "Cuidador de animales."
+
+
+    #amount: 120
+    #fixed: 1
+    
+  106:
+    code: "<?php echo md5(strtoupper('Cuidador de baños publicos y taquillas.')) ?>"
+    name: "Cuidador de baños publicos y taquillas."
+
+
+    #amount: 70
+    #fixed: 1
+    
+  107:
+    code: "<?php echo md5(strtoupper('Cuidador de enfermos, personas con discapacidad y ancianos.')) ?>"
+    name: "Cuidador de enfermos, personas con discapacidad y ancianos."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  109:
+    code: "<?php echo md5(strtoupper('Asistente para el cuidado de niños.')) ?>"
+    name: "Asistente para el cuidado de niños."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  110:
+    code: "<?php echo md5(strtoupper('Cuidador de parques.')) ?>"
+    name: "Cuidador de parques."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  111:
+    code: "<?php echo md5(strtoupper('Curtidor de pieles.')) ?>"
+    name: "Curtidor de pieles."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  112:
+    code: "<?php echo md5(strtoupper('Desmochador de palmas.')) ?>"
+    name: "Desmochador de palmas."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  113:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de alimentos y bebidas no alcoholicas de forma ambulatoria.')) ?>"
+    name: "Elaborador vendedor de alimentos y bebidas no alcoholicas de forma ambulatoria."
+
+
+    #amount: 150
+    #fixed: 1
+    
+  114:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de carbon.')) ?>"
+    name: "Elaborador vendedor de carbon."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  115:
+    code: "<?php echo md5(strtoupper('Elaborador vendedor de yugos, frontiles y sogas.')) ?>"
+    name: "Elaborador vendedor de yugos, frontiles y sogas."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  116:
+    code: "<?php echo md5(strtoupper('Encargado, limpiador y turbinero de inmuebles.')) ?>"
+    name: "Encargado, limpiador y turbinero de inmuebles."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  117:
+    code: "<?php echo md5(strtoupper('Entrenador de animales.')) ?>"
+    name: "Entrenador de animales."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  118:
+    code: "<?php echo md5(strtoupper('Fabricante vendedor de coronas y flores.')) ?>"
+    name: "Fabricante vendedor de coronas y flores."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  119:
+    code: "<?php echo md5(strtoupper('Forrador de botones.')) ?>"
+    name: "Forrador de botones."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  120:
+    code: "<?php echo md5(strtoupper('Fregador engrasador de equipos automotores.')) ?>"
+    name: "Fregador engrasador de equipos automotores."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  121:
+    code: "<?php echo md5(strtoupper('Grabador cifrador de objetos.')) ?>"
+    name: "Grabador cifrador de objetos."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  122:
+    code: "<?php echo md5(strtoupper('Gestor de pasaje en piquera.')) ?>"
+    name: "Gestor de pasaje en piquera."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  123:
+    code: "<?php echo md5(strtoupper('Herrador de animales o productor vendedor de herraduras y clavos.')) ?>"
+    name: "Herrador de animales o productor vendedor de herraduras y clavos."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  124:
+    code: "<?php echo md5(strtoupper('Hojalatero.')) ?>"
+    name: "Hojalatero."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  125:
+    code: "<?php echo md5(strtoupper('Instructor de automovilismo.')) ?>"
+    name: "Instructor de automovilismo."
+
+
+    #amount: 100
+    #fixed: 1
+    
+  126:
+    code: "<?php echo md5(strtoupper('Jardinero.')) ?>"
+    name: "Jardinero."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  127:
+    code: "<?php echo md5(strtoupper('Lavandero o planchador.')) ?>"
+    name: "Lavandero o planchador."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  128:
+    code: "<?php echo md5(strtoupper('Leñador.')) ?>"
+    name: "Leñador."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  129:
+    code: "<?php echo md5(strtoupper('Limpiabotas.')) ?>"
+    name: "Limpiabotas."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  130:
+    code: "<?php echo md5(strtoupper('Limpiador y comprobador de bujias.')) ?>"
+    name: "Limpiador y comprobador de bujias."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  131:
+    code: "<?php echo md5(strtoupper('Limpiador y reparador de fosas.')) ?>"
+    name: "Limpiador y reparador de fosas."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  132:
+    code: "<?php echo md5(strtoupper('Masajista.')) ?>"
+    name: "Masajista."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  133:
+    code: "<?php echo md5(strtoupper('Masillero.')) ?>"
+    name: "Masillero."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  134:
+    code: "<?php echo md5(strtoupper('Mecanografo.')) ?>"
+    name: "Mecanografo."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  135:
+    code: "<?php echo md5(strtoupper('Mensajero.')) ?>"
+    name: "Mensajero."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  136:
+    code: "<?php echo md5(strtoupper('Modista o sastre.')) ?>"
+    name: "Modista o sastre."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  137:
+    code: "<?php echo md5(strtoupper('Molinero.')) ?>"
+    name: "Molinero."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  138:
+    code: "<?php echo md5(strtoupper('Operador de compresor de aire, ponchero o reparador de neumaticos.')) ?>"
+    name: "Operador de compresor de aire, ponchero o reparador de neumaticos."
+
+
+    #amount: 100
+    #fixed: 1
+    
+  139:
+    code: "<?php echo md5(strtoupper('Parqueador cuidador de equipos automotores, ciclos y triciclos.')) ?>"
+    name: "Parqueador cuidador de equipos automotores, ciclos y triciclos."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  140:
+    code: "<?php echo md5(strtoupper('Trabajador domestico.')) ?>"
+    name: "Trabajador domestico."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  141:
+    code: "<?php echo md5(strtoupper('Pintor de inmuebles.')) ?>"
+    name: "Pintor de inmuebles."
+
+
+    #amount: 100
+    #fixed: 1
+    
+  142:
+    code: "<?php echo md5(strtoupper('Piscicultor.')) ?>"
+    name: "Piscicultor."
+
+
+    #amount: 45
+    #fixed: 1
+    
+  143:
+    code: "<?php echo md5(strtoupper('Plasticador.')) ?>"
+    name: "Plasticador."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  144:
+    code: "<?php echo md5(strtoupper('Pocero.')) ?>"
+    name: "Pocero."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  145:
+    code: "<?php echo md5(strtoupper('Productor vendedor de articulos varios de uso en el hogar.')) ?>"
+    name: "Productor vendedor de articulos varios de uso en el hogar."
+
+
+    #amount: 70
+    #fixed: 1
+    
+  146:
+    code: "<?php echo md5(strtoupper('Productor vendedor de articulos de aluminio.')) ?>"
+    name: "Productor vendedor de articulos de aluminio."
+
+
+    #amount: 100
+    #fixed: 1
+    
+  147:
+    code: "<?php echo md5(strtoupper('Productor vendedor de bastos, paños y monturas.')) ?>"
+    name: "Productor vendedor de bastos, paños y monturas."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  148:
+    code: "<?php echo md5(strtoupper('Productor vendedor de figuras de yeso.')) ?>"
+    name: "Productor vendedor de figuras de yeso."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  149:
+    code: "<?php echo md5(strtoupper('Productor vendedor de piñatas y otros articulos similares para cumpleaños.')) ?>"
+    name: "Productor vendedor de piñatas y otros articulos similares para cumpleaños."
+
+
+    #amount: 80
+    #fixed: 1
+    
+  150:
+    code: "<?php echo md5(strtoupper('Productor vendedor de escobas, cepillos y similares.')) ?>"
+    name: "Productor vendedor de escobas, cepillos y similares."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  151:
+    code: "<?php echo md5(strtoupper('Recolector vendedor de recursos naturales.')) ?>"
+    name: "Recolector vendedor de recursos naturales."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  152:
+    code: "<?php echo md5(strtoupper('Profesor de taquigrafia, mecanografia e idiomas.')) ?>"
+    name: "Profesor de taquigrafia, mecanografia e idiomas."
+
+
+    #amount: 100
+    #fixed: 1
+    
+  153:
+    code: "<?php echo md5(strtoupper('Recolector vendedor de materias primas.')) ?>"
+    name: "Recolector vendedor de materias primas."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  154:
+    code: "<?php echo md5(strtoupper('Relojero.')) ?>"
+    name: "Relojero."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  155:
+    code: "<?php echo md5(strtoupper('Reparador de articulos de cuero y similares.')) ?>"
+    name: "Reparador de articulos de cuero y similares."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  156:
+    code: "<?php echo md5(strtoupper('Reparador de bastidores de cama.')) ?>"
+    name: "Reparador de bastidores de cama."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  157:
+    code: "<?php echo md5(strtoupper('Reparador de baterias automotrices.')) ?>"
+    name: "Reparador de baterias automotrices."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  158:
+    code: "<?php echo md5(strtoupper('Reparador de bicicletas.')) ?>"
+    name: "Reparador de bicicletas."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  159:
+    code: "<?php echo md5(strtoupper('Reparador de bisuteria.')) ?>"
+    name: "Reparador de bisuteria."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  160:
+    code: "<?php echo md5(strtoupper('Reparador de cercas y caminos.')) ?>"
+    name: "Reparador de cercas y caminos."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  161:
+    code: "<?php echo md5(strtoupper('Reparador de cocinas.')) ?>"
+    name: "Reparador de cocinas."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  162:
+    code: "<?php echo md5(strtoupper('Reparador de equipos de oficina.')) ?>"
+    name: "Reparador de equipos de oficina."
+
+
+    #amount: 45
+    #fixed: 1
+    
+  163:
+    code: "<?php echo md5(strtoupper('Reparador de espejuelos.')) ?>"
+    name: "Reparador de espejuelos."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  164:
+    code: "<?php echo md5(strtoupper('Reparador de maquinas de coser.')) ?>"
+    name: "Reparador de maquinas de coser."
+
+
+    #amount: 35
+    #fixed: 1
+    
+  165:
+    code: "<?php echo md5(strtoupper('Reparador de monturas y arreos.')) ?>"
+    name: "Reparador de monturas y arreos."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  166:
+    code: "<?php echo md5(strtoupper('Reparador de paraguas y sombrillas.')) ?>"
+    name: "Reparador de paraguas y sombrillas."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  167:
+    code: "<?php echo md5(strtoupper('Reparador y llenador de fosforeras.')) ?>"
+    name: "Reparador y llenador de fosforeras."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  168:
+    code: "<?php echo md5(strtoupper('Repasador (excepto a los maestros en activo).')) ?>"
+    name: "Repasador (excepto a los maestros en activo)."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  169:
+    code: "<?php echo md5(strtoupper('Restaurador de muñecos y otros juguetes.')) ?>"
+    name: "Restaurador de muñecos y otros juguetes."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  170:
+    code: "<?php echo md5(strtoupper('Sereno o portero de edificio de viviendas.')) ?>"
+    name: "Sereno o portero de edificio de viviendas."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  171:
+    code: "<?php echo md5(strtoupper('Techador.')) ?>"
+    name: "Techador."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  172:
+    code: "<?php echo md5(strtoupper('Tenedor de libros.')) ?>"
+    name: "Tenedor de libros."
+
+
+    #amount: 120
+    #fixed: 1
+    
+  173:
+    code: "<?php echo md5(strtoupper('Teñidor de textiles.')) ?>"
+    name: "Teñidor de textiles."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  174:
+    code: "<?php echo md5(strtoupper('Tostador.')) ?>"
+    name: "Tostador."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  175:
+    code: "<?php echo md5(strtoupper('Trabajador agropecuario eventual.')) ?>"
+    name: "Trabajador agropecuario eventual."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  176:
+    code: "<?php echo md5(strtoupper('Trabajador contratado.')) ?>"
+    name: "Trabajador contratado."
+
+
+    #amount: 10
+    #fixed: 0
+    
+  177:
+    code: "<?php echo md5(strtoupper('Traductor de documentos.')) ?>"
+    name: "Traductor de documentos."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  178:
+    code: "<?php echo md5(strtoupper('Transporte de carga con medios de traccion humana.')) ?>"
+    name: "Transporte de carga con medios de traccion humana."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  179:
+    code: "<?php echo md5(strtoupper('Transporte de carga con medios de traccion animal.')) ?>"
+    name: "Transporte de carga con medios de traccion animal."
+
+
+    #amount: 30
+    #fixed: 1
+    
+  180:
+    code: "<?php echo md5(strtoupper('Transporte de pasajeros con medios de traccion humana.')) ?>"
+    name: "Transporte de pasajeros con medios de traccion humana."
+
+
+    #amount: 60
+    #fixed: 1
+    
+  181:
+    code: "<?php echo md5(strtoupper('Trasquilador.')) ?>"
+    name: "Trasquilador."
+
+
+    #amount: 40
+    #fixed: 1
+    
+  182:
+    code: "<?php echo md5(strtoupper('Trillador.')) ?>"
+    name: "Trillador."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  183:
+    code: "<?php echo md5(strtoupper('Vendedor de produccion agricola en puntos de ventas y quioscos.')) ?>"
+    name: "Vendedor de produccion agricola en puntos de ventas y quioscos."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  184:
+    code: "<?php echo md5(strtoupper('Zapatero remendon.')) ?>"
+    name: "Zapatero remendon."
+
+
+    #amount: 50
+    #fixed: 1
+    
+  186:
+    code: "<?php echo md5(strtoupper('Reparador de instrumentos de medicion.')) ?>"
+    name: "Reparador de instrumentos de medicion."
+
+
+    #amount: 90
+    #fixed: 1
+    
+  187:
+    code: "<?php echo md5(strtoupper('Gestor de Alojamiento para viviendas o habitaciones que se arriendan.')) ?>"
+    name: "Gestor de Alojamiento para viviendas o habitaciones que se arriendan."
+
+
+    #amount: 100
+    #fixed: 1
+    
+  188:
+    code: "<?php echo md5(strtoupper('Agente postal.')) ?>"
+    name: "Agente postal."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  185:
+    code: "<?php echo md5(strtoupper('Agente de telecomunicaciones.')) ?>"
+    name: "Agente de telecomunicaciones."
+
+
+    #amount: 20
+    #fixed: 1
+    
+  108:
+    code: "<?php echo md5(strtoupper('Reparador montador de equipos para el bombeo de agua.')) ?>"
+    name: "Reparador montador de equipos para el bombeo de agua."
+
+
+    #amount: 60
+    #fixed: 1
+    

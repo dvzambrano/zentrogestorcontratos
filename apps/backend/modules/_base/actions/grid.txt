@@ -1,0 +1,7 @@
+
+            case 'grid':
+                $start = $request->getParameter('start');
+                $limit = $request->getParameter('limit');
+
+                $rows = _BaseTable::getInstance()->getAllPaged($start, $limit, $filter);
+                break;

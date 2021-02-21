@@ -1,0 +1,11 @@
+Currency:
+  CUP:
+    code: CUP
+    name: 'Peso cubano'
+    rate: 1
+    isactive: true
+  CUC:
+    code: CUC
+    name: 'Peso cubano libremente convertible'
+    rate: 0.04
+    isactive: true

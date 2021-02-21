@@ -1,0 +1,49 @@
+Contracttype:
+  Compraventa:
+    code: "<?php echo md5(strtoupper('Compraventa')) ?>"
+    name: 'Compraventa'
+  Suministro:
+    code: "<?php echo md5(strtoupper('Suministro')) ?>"
+    name: 'Suministro'
+  Arrendamiento:
+    code: "<?php echo md5(strtoupper('Arrendamiento')) ?>"
+    name: 'Arrendamiento'
+  Comision:
+    code: "<?php echo md5(strtoupper('Comisión')) ?>"
+    name: 'Comisión'
+  Consignacion:
+    code: "<?php echo md5(strtoupper('Consignación')) ?>"
+    name: 'Consignación'
+  Deposito:
+    code: "<?php echo md5(strtoupper('Depósito')) ?>"
+    name: 'Depósito'
+  Comodato:
+    code: "<?php echo md5(strtoupper('Comodato')) ?>"
+    name: 'Comodato'
+  Donacion:
+    code: "<?php echo md5(strtoupper('Donación')) ?>"
+    name: 'Donación'
+  Agencia:
+    code: "<?php echo md5(strtoupper('Agencia')) ?>"
+    name: 'Agencia'
+  EjecucionObra:
+    code: "<?php echo md5(strtoupper('Ejecución de Obra')) ?>"
+    name: 'Ejecución de Obra'
+  Permuta:
+    code: "<?php echo md5(strtoupper('Permuta')) ?>"
+    name: 'Permuta'
+  Servicios:
+    code: "<?php echo md5(strtoupper('Servicios')) ?>"
+    name: 'Servicios'
+  Transporte:
+    code: "<?php echo md5(strtoupper('Transporte')) ?>"
+    name: 'Transporte'
+  Cooperacion:
+    code: "<?php echo md5(strtoupper('Cooperacion')) ?>"
+    name: 'Cooperacion'
+  Alquiler:
+    code: "<?php echo md5(strtoupper('Alquiler')) ?>"
+    name: 'Alquiler'
+  Otros:
+    code: "<?php echo md5(strtoupper('Otros')) ?>"
+    name: 'Otros'

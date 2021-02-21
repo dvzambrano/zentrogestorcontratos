@@ -1,0 +1,4 @@
+
+            case 'combo':
+                $rows = _BaseTable::getInstance()->getAll($filter);
+                break;

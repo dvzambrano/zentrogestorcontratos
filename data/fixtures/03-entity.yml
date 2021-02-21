@@ -1,0 +1,2913 @@
+Entity:
+  Entity_1:
+    code: b029e3fec1f7064b8aac2826db00cfe5
+    name: 'BANCO NACIONAL DE CUBA'
+    shortname: BNC
+    specialcode: 251-0-00251
+    nit: ''
+    comment: null
+    address: 'Calle 25'
+    logo: 'http://localhost:58003/uploads/assets/logos/20180508-115100-11CE567CE2CF0B349535FE5BDE2ED9AF.jpg'
+    images: '[{"url":"uploads/assets/entity//20180508-113837-8B2F72395BF43453623A8A7806AB54EC.JPG","name":"20180508-113837-8B2F72395BF43453623A8A7806AB54EC.JPG","href":"uploads/assets/entity//20180508-113837-8B2F72395BF43453623A8A7806AB54EC.JPG","shortname":"20180508-113...","id":"35999ea08e7924844dea8312ceef4025"},{"url":"uploads/assets/entity//20180508-113850-BC373835FC58164EFED78A8A4A1E43B4.JPG","name":"20180508-113850-BC373835FC58164EFED78A8A4A1E43B4.JPG","href":"uploads/assets/entity//20180508-113850-BC373835FC58164EFED78A8A4A1E43B4.JPG","shortname":"20180508-113...","id":"b668c2d7fe1388fdb7e648bc4908613e"}]'
+    path: null
+    Location: Location_29
+    Entitytype: Entitytype_1
+    #contacts: '[]'
+    #accounts: '[]'
+    #metadata: '[]'
+  Entity_2:
+    code: 5758311b3c1e65b9aec73e4b2eba9fd3
+    name: 'BANCO POPULAR DE AHORRO'
+    shortname: BPA
+    specialcode: 253-0-00253
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_26
+    Entitytype: Entitytype_1
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_3:
+    code: f86b4893625a1a7a039c4f1f60afd06b
+    name: 'BANCO CENTRAL DE CUBA'
+    shortname: BCC
+    specialcode: 257-0-00257
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_29
+    Entitytype: Entitytype_1
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_4:
+    code: 39f4cf5e83588035ccc1d8dd46698fca
+    name: 'BANCO DE CREDITO Y COMERCIO'
+    shortname: BANDEC
+    specialcode: 258-0-00258
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_29
+    Entitytype: Entitytype_1
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_5:
+    code: e2e5a8cbec2f44ee32aa80cc15b618ea
+    name: 'BANCO EXTERIOR DE CUBA'
+    shortname: BEC
+    specialcode: 259-0-00259
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_27
+    Entitytype: Entitytype_1
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_6:
+    code: 692c26cd5f68c4823a67076059fbdfe6
+    name: 'PODER POPULAR PROVINCIAL DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-00510
+    nit: null
+    comment: null
+    address: 'PROLONGACION DE FREXES S/N E/ GONZALEZ CLAVEL E INDEPENDENCIA, VISTA ALEGRE'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_7:
+    code: 6d08c6ac60337a04e1526c34c0bf9103
+    name: 'PODER POPULAR MUNICIPAL DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-00516
+    nit: null
+    comment: null
+    address: 'CALLE AGRAMONTE NO. 184 E/ LIBERTAD Y MACEO'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_8:
+    code: 08aea2b11700942352d1120af94f1188
+    name: 'EMPRESA DE COMBINADAS CANERAS "LX ANIVERSARIO DE LA REVOLUCION DE OCTUBRE"'
+    shortname: ''
+    specialcode: 102-0-01112
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_9:
+    code: 78c8944d08a7d7d2177a64c9430fe4c8
+    name: 'EMPRESA DE CERAMICA BLANCA DE HOLGUIN'
+    shortname: ''
+    specialcode: 126-0-01340
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_10:
+    code: 49f04e3ef1387b7af66055d032efe97d
+    name: 'EMPRESA CARNICA HOLGUIN'
+    shortname: ''
+    specialcode: 111-0-01591
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_11:
+    code: 3e7a5e601c1b0dd81edf7122b1381548
+    name: 'EMPRESA DE PRODUCTOS LACTEOS HOLGUIN'
+    shortname: ''
+    specialcode: 111-0-01611
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_12:
+    code: 032154b00265213b7783a9e94fcfa261
+    name: 'EMPRESA DE ACOPIO, BENEFICIO Y TORCIDO DE TABACO HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-01714
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_13:
+    code: 94cca74f2307144095f941e43bf5f910
+    name: 'EMPRESA MECANICA HEROES DEL 26 DE JULIO'
+    shortname: ''
+    specialcode: 102-0-02417
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_14:
+    code: 5b0a5f6d50302d30979aa7a3f7440162
+    name: 'CENTRO DE DESARROLLO DE LA MAQUINARIA AGRICOLA'
+    shortname: CEDEMA
+    specialcode: 102-0-02665
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_15:
+    code: 91e910f20a7a91284a6a6ec7cefef004
+    name: 'EMPRESA PRODUCTORA DE PREFABRICADO DE HOLGUIN'
+    shortname: ''
+    specialcode: 126-0-02701
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_16:
+    code: 3c0090ab2d554145187f50b7ab7e8381
+    name: 'EMPRESA CONSTRUCTORA DE OBRAS DE ARQUITECTURA NO. 19'
+    shortname: ''
+    specialcode: 126-0-02889
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_17:
+    code: adab23cc979bde2c65c9e878d735a2ef
+    name: 'EMPRESA CONSTRUCTORA DE OBRAS DE INGENIERIA NO. 17'
+    shortname: ''
+    specialcode: 126-0-02891
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_18:
+    code: 9536871a0bd9d360fff9a189d14b1e8c
+    name: 'EMPRESA CONSTRUCTORA DE OBRAS INDUSTRIALES NO. 9'
+    shortname: ''
+    specialcode: 126-0-02893
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_19:
+    code: ac95f8323c639ef5c84590c0a3a95b14
+    name: 'EMPRESA CONSTRUCTORA MILITAR No. 2'
+    shortname: ''
+    specialcode: 271-0-03176
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_20:
+    code: 90cce346cd4f71765daf56da74f46572
+    name: 'EMPRESA HORTICOLA "WILFREDO PENA CABRERA"'
+    shortname: ''
+    specialcode: 131-0-03544
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_21:
+    code: 5b9989a4c249fbe75cf12e1c0fbb3fa7
+    name: 'EMPRESA PORCINA HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-03731
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_22:
+    code: 24eec39064fd41d82f8fdff407c05d36
+    name: 'EMPRESA AVICOLA HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-03752
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_23:
+    code: 2c6a4dc5efa1cd2d28deb409fd78582e
+    name: 'EMPRESA DE INVESTIGACIONES Y PROYECTOS HIDRAULICOS DE HOLGUIN'
+    shortname: ''
+    specialcode: 113-0-04204
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_24:
+    code: 5e52d5502861d1018060990fca0bcc8d
+    name: 'EMPRESA PROVINCIAL PRODUCTORA Y DISTRIBUIDORA DE ALIMENTOS DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-04237
+    nit: null
+    comment: null
+    address: 'CALLE MORALES LEMUS NO. 193 E/ FREXES Y MARTI'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_25:
+    code: f2455d033f8b2ad0e4ad4b9d41c73805
+    name: 'EMPRESA AGROFORESTAL HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-04324
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_26:
+    code: ad1ac20b079633f380ae38721bda626d
+    name: 'EMPRESA DE SUMINISTROSAGROPECUARIOS HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-04934
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_27:
+    code: c54bb3522a30cd8f31cb10488b6c5c12
+    name: 'EMPRESA DE RECUPERACION DE MATERIAS PRIMAS DE HOLGUIN'
+    shortname: ''
+    specialcode: 102-0-04980
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_28:
+    code: c5bcc4164c87d9734f300e46c7a4e2b2
+    name: 'EMPRESA MUNICIPAL DE COMERCIO HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-05327
+    nit: null
+    comment: null
+    address: 'CALLE LIBERTAD NO. 150 E/ MARTI Y LUZ CABALLERO'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_29:
+    code: b979c0383693f3fbf5291ce685cd0b04
+    name: 'EMPRESA DE ACOPIO HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-05395
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_30:
+    code: ede90544452d7820a74c58b08a04e541
+    name: 'EMPRESA COMERCIALIZADORA Y DE SERVICIOS DE PRODUCTOS UNIVERSALES HOLGUIN'
+    shortname: ''
+    specialcode: 171-0-05472
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_31:
+    code: 0c16a489f31e7afc56877990b384855c
+    name: 'EMPRESA PROVINCIAL DE SUMINISTROS HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-05685
+    nit: null
+    comment: null
+    address: 'CALLE GARAYALDE NO. 221 ESQ. MORALES LEMUS'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_32:
+    code: 6723164bade2c1f131e9a4a5df744cd0
+    name: 'CENTRO PROVINCIAL DEL LIBRO Y LA LITERATURA DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-05700
+    nit: null
+    comment: null
+    address: 'CALLE AREAS NO. 144 E/ CERVANTES Y FOMENTO'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_33:
+    code: 2c06062000f45d8dc89771a7af853532
+    name: 'EMPRESA DE ASEGURAMIENTO A LA EDUCACION HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-05787
+    nit: null
+    comment: null
+    address: 'CALLE MIRO NO. 103 E/ ARIAS Y AGUILERA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_34:
+    code: 9349b52707ca84899b4a23a27a66cbc3
+    name: 'EMPRESA PROVINCIAL DE TRANSPORTE DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-06052
+    nit: null
+    comment: null
+    address: 'CALLE FOMENTO NO. 173 E/ GARAYALDE Y AGRAMONTE'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_35:
+    code: a8dfc181952e6fe2950af92ccfde2eca
+    name: 'UNIDAD PRESUPUESTADA MUNICIPAL DE SERVICIOS COMUNALES HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-06443
+    nit: null
+    comment: null
+    address: 'CALLE C.M. DE CESPEDES NO. 102 ESQ. CARRETERA DE MAYARI'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_7
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_36:
+    code: 7c5bf5f0e04d85a7ce4d2eadf2a21f2d
+    name: 'UNIVERSIDAD DE HOLGUIN'
+    shortname: ''
+    specialcode: 223-0-06821
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_37:
+    code: cb462d51665632731109c668e097c53f
+    name: 'UNIDAD PRESUPUESTADA MUNICIPAL DE EDUCACION HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-06989
+    nit: null
+    comment: null
+    address: 'CALLE MORALES LEMUS NO. 174 E/ CABLES Y ARICOCHEA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_7
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_38:
+    code: 47601309232f01f1ac4436f4c9e0877b
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL DE EDUCACION HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-07116
+    nit: null
+    comment: null
+    address: 'CALLE CUBA NO. 241 E/ LIBERTAD Y MACEO'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_39:
+    code: ec5d78095a8e26dbbdfc9954e33fac5e
+    name: 'UNIVERSIDAD DE CIENCIAS MEDICAS DE HOLGUIN'
+    shortname: ''
+    specialcode: 241-0-07123
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_40:
+    code: e4ae37e936e04395bf01f6e21fc71081
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL ESCUELA VOCACIONAL "JOSE MARTI"'
+    shortname: ''
+    specialcode: 321-1-07149
+    nit: null
+    comment: null
+    address: 'CARRETERA MAYARI KM. 4 1/2'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_41:
+    code: 028a81389d22dc87f7df72db486e2ffb
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL ESCUELA DE INICIACION DEPORTIVA "PEDRO DIAZ COELLO"'
+    shortname: ''
+    specialcode: 321-1-07184
+    nit: null
+    comment: null
+    address: 'CARRETERA MAYARI KM. 2 1/2'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_42:
+    code: eb2d94b997701ad1a440e7bac10f0f8e
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL ATENCION AL PLANTEL INSTITUTO TECNICO DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-07185
+    nit: null
+    comment: null
+    address: 'CARRETERA CENTRAL KM. 774 VIA HABANA'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_43:
+    code: a41dcb50acbc8106ab3f5205b0d1b646
+    name: 'EMPRESA DE MATERIALES DE CONSTRUCCION DE HOLGUIN'
+    shortname: ''
+    specialcode: 126-0-07411
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_44:
+    code: d14ffb38d95591ec41cc7709f4e9c639
+    name: 'EMPRESA PESQUERA DE HOLGUIN, PESCAHOL'
+    shortname: PESCAHOL
+    specialcode: 111-0-07491
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_45:
+    code: 06b8b8ee32993b7a2b7d90a5f7bac86b
+    name: 'ADUANA HOLGUIN'
+    shortname: ''
+    specialcode: 304-0-07710
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_46:
+    code: 7315334ff4875ff32d8bd5bd524097dc
+    name: 'EMPRESA DE MANTENIMIENTO VIAL Y CONSTRUCCIONES DE HOLGUIN'
+    shortname: ''
+    specialcode: 151-0-07781
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_47:
+    code: 2db8c9568def22f659b455d2b2c76125
+    name: 'DIRECCION PROVINCIAL DE SERVICIOS COMUNALES DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-07830
+    nit: null
+    comment: null
+    address: 'CALLE MIRO NO. 151 ENTRE MARTI Y FREXES'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_48:
+    code: 7d8c2d9bae4e3070fa8a717eba34c516
+    name: 'EMPRESA PROVINCIAL DE SERVICIOS TECNICOS, PERSONALES Y DEL HOGAR DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-07854
+    nit: null
+    comment: null
+    address: 'CALLE FREXES NO. 145 E/ MARTIRES Y MAXIMO GOMEZ'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_49:
+    code: 12b233e53174d544bf7b347fa303525e
+    name: 'EMPRESA GEOCUBA ORIENTE NORTE'
+    shortname: ''
+    specialcode: 271-0-07991
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_50:
+    code: d9cf38ad836f428f43f0eb91141fe4d1
+    name: 'CENTRO PROVINCIAL DEL CINE DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08014
+    nit: null
+    comment: null
+    address: 'CALLE MARTIRES NO. 77 ALTOS ENTRE FREXES Y AGUILERA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_51:
+    code: d016e2c17dab056fe27d4303888f157f
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL DE RADIO HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08046
+    nit: null
+    comment: null
+    address: 'CALLE MAXIMO GOMEZ NO. 298 E/ FREXES Y MARTI'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_52:
+    code: da64e071ba7a03fecc768f708135931d
+    name: 'UNIDAD PROVINCIAL DE APOYO A LA ACTIVIDAD CULTURAL DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08068
+    nit: null
+    comment: null
+    address: 'CALLE MARIANA DE LA TORRES NO. 146 ENTRE 14 Y 18 REPARTO LENIN'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_53:
+    code: 216ab142962f7a39bc24127682b69c85
+    name: 'UNIDAD MUNICIPAL DE APOYO A LA ACTIVIDAD CULTURAL DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-08069
+    nit: null
+    comment: null
+    address: 'CALLE NARCISO LOPEZ NO. 127 E/ AGUILERA Y ARIAS'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_54:
+    code: c186e22d669db0c79316d3b97d60e68e
+    name: 'UNIDAD PRESUPUESTADA TELE CRISTAL'
+    shortname: ''
+    specialcode: 233-0-08133
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_55:
+    code: 7e00ae044e3aaeb5b153de372b38b2b0
+    name: 'EMPRESA PROVINCIAL COMERCIALIZADORA DE LA MUSICA Y LOS ESPECTACULOS "FAUSTINO ORAMAS OSORIO"'
+    shortname: ''
+    specialcode: 321-1-08137
+    nit: null
+    comment: null
+    address: 'CALLE MARTIRES NO. 73 ENTRE LAS CALLES FREXES Y AGUILERA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_56:
+    code: 62e92b98355193e6da1b883361f09cd1
+    name: 'DELEGACION TERRITORIAL INRE HOLGUIN'
+    shortname: INRE-HOLGUIN
+    specialcode: 271-0-08205
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_57:
+    code: a57e8decfb8dce31b69fb6d8c999fa22
+    name: 'UNIDAD PRESUPUESTADA MUNICIPAL SALUD PUBLICA HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-08584
+    nit: null
+    comment: null
+    address: 'CALLE ARIAS NO. 193 E/ MARTIRES Y MAXIMO GOMEZ'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_7
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_58:
+    code: 1e56b9e1ed177078c700bc654a076ab3
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL HOSPITAL PEDIATRICO DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08586
+    nit: null
+    comment: null
+    address: 'AVE. LOS LIBERTADORES NO. 91'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_59:
+    code: 37a84a11daeadf27036ef20e5e8dee01
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL HOSPITAL "LENIN" HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08587
+    nit: null
+    comment: null
+    address: 'AVENIDA LENIN NO. 2'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_60:
+    code: 71ab32c6b092b52bd36b24416b530076
+    name: 'UNIDAD PRESUPUESTADA MUNICIPAL DE DEPORTES Y CULTURA FISICA HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-08642
+    nit: null
+    comment: null
+    address: 'CALLE MORALES LEMUS NO. 156 E/ MARTI Y LUZ CABALLERO'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_7
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_61:
+    code: d2a6d2feb5ccb97ea4e670e91120d95f
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL DE DEPORTES Y CULTURA FISICA HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08671
+    nit: null
+    comment: null
+    address: 'AVE. DE LOS LIBERTADORES E/ CALLE 1RA Y AVE. XX ANIVERSARIO'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_62:
+    code: 9c12d9f3c5861229667973ffa7ef4e27
+    name: 'CENTRO PROVINCIAL DE HIGIENE Y EPIDEMIOLOGIA HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08710
+    nit: null
+    comment: null
+    address: 'CALLE LIBERTAD NO. 36 E/ 12 Y 14'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_63:
+    code: a430c20c7a79447342bf3efddd96b753
+    name: 'UNIDAD PRESUPUESTADA PROVINCIAL DE SALUD HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-08725
+    nit: null
+    comment: null
+    address: 'CALLE MORALES LEMUS, ESQ. FREXES'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_64:
+    code: c99675e1c6c18598f23551ce54254475
+    name: 'EMPRESA COMERCIALIZADORA DE COMBUSTIBLES DE HOLGUIN'
+    shortname: ''
+    specialcode: 104-0-08876
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_65:
+    code: 8ea73c5a7d2c5d047bdd4dcedcf5a1d3
+    name: 'EMPRESA ELECTRICA HOLGUIN'
+    shortname: 'OBE HOLGUIN'
+    specialcode: 104-0-09090
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_66:
+    code: 0fe1112e69dc51ef5060f7978d1626e8
+    name: 'FISCALIA PROVINCIA HOLGUIN'
+    shortname: ''
+    specialcode: 268-0-09226
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_67:
+    code: 9a0ab3a2be413d9709aa38e12d297e60
+    name: 'OFICINA PROVINCIAL DE LA ONEI EN HOLGUIN'
+    shortname: ''
+    specialcode: 305-0-09270
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_68:
+    code: b9cff9edd388636b7f61dc122a1b9d2f
+    name: 'DELEGACION PROVINCIAL DEL MINISTERIO DE LA AGRICULTURA EN HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-09292
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_69:
+    code: 0c1f2eb45443cbed02525212dbcf17ac
+    name: 'DIRECCION PROVINCIAL DE TRABAJO DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-09340
+    nit: null
+    comment: null
+    address: 'CALLE 27 NO. 28 E/ 4TA Y 6TA, RPTO. LENIN'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_70:
+    code: e74ee1e13d68387c895c375152619d77
+    name: 'UNIDAD PRESUPUESTADA DE APOYO AL MINISTERIO DE CIENCIA, TECNOLOGIA Y MEDIO AMBIENTE EN HOLGUIN'
+    shortname: ''
+    specialcode: 211-0-09366
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_71:
+    code: e4f6828376eaec575f11ad6703a9b4ca
+    name: 'DIRECCION PROVINCIAL DE PLANIFICACION FISICA HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-09384
+    nit: null
+    comment: null
+    address: 'CALLE CARBO NO. 114 E/ FREXES Y PEREZ ZORRILLA'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_72:
+    code: 81747e29e441be00703554dfe67a650e
+    name: 'TRIBUNAL PROVINCIAL POPULAR DE HOLGUIN'
+    shortname: ''
+    specialcode: 267-0-09567
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_73:
+    code: 215a921d9adac99802ef270c645caded
+    name: 'OFICINA TERRITORIAL DE NORMALIZACION DE HOLGUIN'
+    shortname: ''
+    specialcode: 211-0-09676
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_74:
+    code: 5eefd536def799bb4f91eb7ab5c56fb7
+    name: 'COMITE PROVINCIAL DEL PCC HOLGUIN'
+    shortname: ''
+    specialcode: 501-0-09912
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_3
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_75:
+    code: 93e0cf58ad1ef81a5cfa5f877b6cd982
+    name: 'HOSPITAL CLINICO QUIRURGICO DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-11027
+    nit: null
+    comment: null
+    address: 'CARRETERA VIA VALLE DE MAYABE'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_76:
+    code: 0d24a6b3ef62f48d25b49a72bfd35011
+    name: 'DIRECCION PROVINCIAL DE LA VIVIENDA DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-11070
+    nit: null
+    comment: null
+    address: 'CALLE FOMENTO NO. 237 ENTRE ARIAS Y AGUILERA'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_77:
+    code: 0efe42f52beaecafe35b7e1fdab0d7bd
+    name: 'EMPRESA DE APROVECHAMIENTO HIDRAULICO DE HOLGUIN'
+    shortname: ''
+    specialcode: 113-0-11121
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_78:
+    code: 475c65fff435aff2111cf7a2278b729f
+    name: 'EMPRESA RECINTO DE EXPOSICIONES DE HOLGUIN'
+    shortname: EXPOHOLGUIN
+    specialcode: 321-1-11137
+    nit: null
+    comment: null
+    address: 'AVE. DE LOS LIBERTADORES NO. 44'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_79:
+    code: 176f0d1dc2913c777360dd7b3b19c219
+    name: 'EMPRESA DE SERVICIOS A TRABAJADORES DE HOLGUIN'
+    shortname: ''
+    specialcode: 126-0-11592
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_80:
+    code: d64ee136a751ebb115b77605b5707f0a
+    name: 'EMPRESA "CAMPISMO POPULAR" HOLGUIN'
+    shortname: ''
+    specialcode: 256-0-11955
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_81:
+    code: 469dfd654ea9c20123c4c8677ee36662
+    name: 'EMPRESA MUNICIPAL DE GASTRONOMIA HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-11961
+    nit: null
+    comment: null
+    address: 'CALLE PERALTA NO. 39 ENTRE 20 DE MAYO E INDEPENDENCIA, REPARTO SANTIESTEBAN'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_82:
+    code: deccdbdb266860b1a111c857e91a82ec
+    name: 'EMPRESA DE SEGURIDAD Y PROTECCION DEL CONSEJO DE ADMINISTRACION PROVINCIAL DEL PODER POPULAR DE HOLGUIN'
+    shortname: SEPRO
+    specialcode: 321-1-12050
+    nit: null
+    comment: null
+    address: 'NARCISO LOPEZ NO. 112 ENTRE ARIAS Y AGRAMONTE'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_83:
+    code: dbf102132cd5f48dab77ed80f460fede
+    name: 'CENTRO DE INVESTIGACIONES Y SERVICIOS AMBIENTALES Y TECNOLOGICOS'
+    shortname: ''
+    specialcode: 211-0-12119
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_84:
+    code: 20582bcfbcce5f996e3b545a7196e945
+    name: 'EMPRESA DE CIGARROS "LAZARO PENA"'
+    shortname: ''
+    specialcode: 131-0-12216
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_85:
+    code: 34fd27796836e3a8fe3cd8b5a431c7f0
+    name: 'DIRECCION PROVINCIAL DE FINANZAS Y PRECIOS DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-12217
+    nit: null
+    comment: null
+    address: 'CALLE LIBERTAD NO. 207 E/ LUZ CABALLERO Y MARTI'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_86:
+    code: 595ce7380c6e45d413bb5b10bafeba52
+    name: 'EMPRESA MAYORISTA DE PRODUCTOS ALIMENTICIOS Y OTROS BIENES DE CONSUMO DE HOLGUIN'
+    shortname: ''
+    specialcode: 171-0-12461
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_87:
+    code: f84315fbb46fbc4e5d4de1f16a789bea
+    name: 'EMPRESA PROVINCIAL DE ALOJAMIENTO Y GASTRONOMIA HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-12464
+    nit: null
+    comment: null
+    address: 'LIBERTAD ENTRE CUBA Y GARAYALDE'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_88:
+    code: 7a9e898fa32eeb7c7b27d15eb2e8957b
+    name: 'EMPRESA AGROPECUARIA MILITAR HOLGUIN-LAS TUNAS'
+    shortname: ''
+    specialcode: 271-0-12491
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_89:
+    code: cff6bb4c455d110c0d80a4c669b32c66
+    name: 'EMPRESA DE ENVASES DE ALUMINIOS'
+    shortname: ENVAL
+    specialcode: 102-0-12555
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_90:
+    code: b7ca70661269f0bb931eecce18ed9751
+    name: 'EMPRESA DE RESIDUOS SOLIDOS URBANOS DE HOLGUIN'
+    shortname: ''
+    specialcode: 102-0-12558
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_91:
+    code: bac355962e970bbea9cfff1267366e79
+    name: 'EMPRESA AGROPECUARIA E INDUSTRIAL DEL MININT HOLGUIN'
+    shortname: ''
+    specialcode: 272-0-12665
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_92:
+    code: 38aa3401a0ba29ee82e41e1334c31805
+    name: 'DELEGACION PROVINCIAL DEL INSTITUTO NACIONAL DE RECURSOS HIDRAULICOS DE HOLGUIN'
+    shortname: ''
+    specialcode: 113-0-12694
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_93:
+    code: f94909491f3a922dda52889385e83e35
+    name: 'EMPRESA PROVINCIAL DE INDUSTRIAS LOCALES VARIAS DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-12721
+    nit: null
+    comment: null
+    address: 'CALLE CUBA NO. 248, ESQ. NARCISO LOPEZ'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_94:
+    code: ab90c6bc86143a8282fee22e6635aa66
+    name: 'EMPRESA PROVINCIAL CONSTRUCTORA DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-12777
+    nit: null
+    comment: null
+    address: 'CALLE MARTIRES E/ MARTI Y FREXES'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_95:
+    code: b199693db808667519638fbac8ce13fa
+    name: 'EMPRESA DE ACUEDUCTO Y ALCANTARILLADO DE HOLGUIN'
+    shortname: ''
+    specialcode: 113-0-12820
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_96:
+    code: b9c5a56923e17e9086ba6fb684731ee9
+    name: 'EMPRESA DE SERVICIOS DE INGENIERIA Y DISENO DE HOLGUIN, VERTICE'
+    shortname: ''
+    specialcode: 126-0-12928
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_97:
+    code: 43300bfe19020853535a4f8ad01ad8bd
+    name: 'UNIDAD ADMINISTRATIVA COMERCIAL HOLGUIN'
+    shortname: ''
+    specialcode: 271-0-13098
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_98:
+    code: 20bfa8371f9040bc72dcb0ecdf3a56b1
+    name: 'EMPRESA DE MANTENIMIENTO Y REHABILITACION DE OBRAS HIDRAULICAS DE ORIENTE'
+    shortname: ''
+    specialcode: 113-0-13107
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_99:
+    code: 9822c4f6ebe485a7e833928e34a4a7f7
+    name: 'EMPRESA INTEGRAL AGROPECUARIA HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-13213
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_100:
+    code: 3d1be7821c0c066becaeafeeb6083dbe
+    name: 'CENTRO DE GESTION CONTABLE MUNICIPAL DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-13438
+    nit: null
+    comment: null
+    address: 'CALLE ARIAS NO. 324 ALTOS E/ MENDIETA Y DOSITEO AGUILERA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_7
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_101:
+    code: 57e748267fa53e2178df542710ca93e3
+    name: 'EMPRESA DE SERVICIOS INGENIEROS HIDRAULICOS ESTE'
+    shortname: ESIHE
+    specialcode: 113-0-13508
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_102:
+    code: ef5d1296831dc1996b58f942cfaf98f5
+    name: 'EMPRESA HOLPLAST'
+    shortname: ''
+    specialcode: 113-0-13534
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_103:
+    code: 7f82383f380a8cb019724f2ed1a5c19d
+    name: 'DIRECCION MUNICIPAL DE LA VIVIENDA DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-13704
+    nit: null
+    comment: null
+    address: 'AGUILERA NO. 225 A, E/ LIBERTAD Y MACEO'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_7
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_104:
+    code: 60630ba3b9455c6b651821b0dc547bc7
+    name: 'DIRECCION PROVINCIAL DE JUSTICIA DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-13728
+    nit: null
+    comment: null
+    address: 'JOSE ANTONIO CARDET NO. 198 ESQUINA AGUILERA'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_105:
+    code: b8279765dfcc9a7e9151b99926c783ea
+    name: 'DIRECCION MUNICIPAL DE TRABAJO Y SEGURIDAD SOCIAL DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-2-14015
+    nit: null
+    comment: null
+    address: 'CALLE AGUILERA NO. 54 E/ PROGRESO Y FOMENTO, REPARTO VISTA ALEGRE'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_7
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_106:
+    code: df19812b0aa2a39316876d20484c7e99
+    name: 'SALA DE TELEVISION PROVINCIAL HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14041
+    nit: null
+    comment: null
+    address: 'CALLE FREXES NO. 84 ALTOS ENTRE FOMENTO Y MARANON'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_107:
+    code: 003c5ec8c137caebf7f1510e14cb9a10
+    name: 'EMPRESA PROVINCIAL DE SERVICIOS A LA SALUD DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14129
+    nit: null
+    comment: null
+    address: 'CARRETERA CENTRAL S/N ENTRE SAN PABLO Y ANGEL GUERRA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_108:
+    code: c7d493e2e5e150726625c2933c4743ec
+    name: 'EMPRESA PROVINCIAL DE FARMACIAS Y OPTICAS DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14130
+    nit: null
+    comment: null
+    address: 'MIRO NO. 84 E/ FREXES Y MARTI'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_109:
+    code: 7161e8cacd7ff08f088a11d41084ca3b
+    name: 'EMPRESA PROVINCIAL DE CONSERVACION, REHABILITACION Y SERVICIOS A LA VIVIENDA DE HOLGUIN'
+    shortname: UMBRALES
+    specialcode: 321-1-14131
+    nit: null
+    comment: null
+    address: 'CALLE LIBERTAD NO. 61 E/ LAS CALLES CUBA Y HABANA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_110:
+    code: 3b6db2cc82612b1c2dca92c8d74b1870
+    name: 'EMPRESA AZUCARERA HOLGUIN'
+    shortname: ''
+    specialcode: 658-0-14230
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_111:
+    code: 9332722827d8af41b45fd54d0b5b4511
+    name: 'DIRECCION ESTATAL DE COMERCIO DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14260
+    nit: null
+    comment: null
+    address: 'CALLE FREXES NO. 346 ALTO ENTRE CARBO Y CARRETERA CENTRAL'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_112:
+    code: 7cbd38d09bd8f39f12d7251320b0defb
+    name: 'GRUPO EMPRESARIAL DE COMERCIO DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14261
+    nit: null
+    comment: null
+    address: 'LIBERTAD NO. 140 ENTRE MARTI Y LUZ CABALLERO'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_6
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_113:
+    code: 713371843031e356df9b881513bbc749
+    name: 'EMPRESA CONSTRUCTORA HOLGUIN DEL MININT'
+    shortname: 'ECM HOLGUIN'
+    specialcode: 272-0-14272
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_114:
+    code: deae5fe8c11a8956c1e28c6d7edfa3a3
+    name: 'EMPRESA PROVINCIAL DE ASEGURAMIENTOS Y SERVICIOS A LA ACTIVIDAD COMUNAL DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14301
+    nit: null
+    comment: null
+    address: 'PEPE TORRES 144 ENTRE FREXES Y AGUILERA'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_115:
+    code: 21af433521a3b82a941b4a63b09ffa63
+    name: 'EMPRESA DE CORREOS HOLGUIN'
+    shortname: ''
+    specialcode: 161-0-14411
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_116:
+    code: c5b62e27f613bfa5d95f1f2fa32e136e
+    name: 'EMPRESA DE UNIDADES DE ADMINISTRACION COMERCIAL HOLGUIN'
+    shortname: 'EMPRESA UAC HOLGUIN'
+    specialcode: 272-0-14435
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_117:
+    code: 7f977cacedc7934a126706eeb028378a
+    name: 'CASA DE IBEROAMERICA DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14447
+    nit: null
+    comment: null
+    address: 'CALLE AREAS NO. 161 ENTRE LIBERTAD Y MACEO.'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_118:
+    code: 0757b545d0da26bd4f7e11129c87dd01
+    name: 'EMPRESA PROVINCIAL DE SERVICIOS LEGALES HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14448
+    nit: null
+    comment: null
+    address: 'CALLE AGRAMONTE NO. 141 ENTRE MORALES LEMUS Y NARCISO LOPEZ.'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_119:
+    code: 2ad46472678e4cee6335487a220d87e8
+    name: 'EMPRESA PROVINCIAL DE SERVICIOS TECNICOS DEL ARQUITECTO DE LA COMUNIDAD DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14459
+    nit: null
+    comment: null
+    address: 'CALLE AREAS NO. 222 ENTRE MACEO Y MARTIRES'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_120:
+    code: 9fcf22145a85bf55b94c37ed6f93f46c
+    name: 'CENTRO PROVINCIAL DE ARTES ESCENICAS DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14460
+    nit: null
+    comment: null
+    address: 'CALLE MARTI NO. 115 ENTRE MACEO Y LIBERTAD'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_121:
+    code: 031e3e3963af45c5692adf975c27ca0e
+    name: 'EMPRESA PROVINCIAL DE SERVICIOS AL ARTE DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14461
+    nit: null
+    comment: null
+    address: 'CALLE LUZ CABALLERO NO. 120 ESQUINA MARTIRES'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_2
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_122:
+    code: 51b307493c1f76bc965ed553f5b05a0e
+    name: 'DELEGACION MUNICIPAL DEL MINISTERIO DE LA AGRICULTURA EN HOLGUIN'
+    shortname: ''
+    specialcode: 131-0-14642
+    nit: null
+    comment: null
+    address: ''
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_123:
+    code: 91192c2aa0d85c580764bfd285dc7539
+    name: 'CENTRO PROVINCIAL DE ELECTROMEDICINA DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14690
+    nit: null
+    comment: null
+    address: 'CARRETERA CENTRAL VIA BAYAMO, KM 774'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_124:
+    code: b7f04581c98a1593d22f39b3088c7e3d
+    name: 'BANCO PROVINCIAL DE SANGRE DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14694
+    nit: null
+    comment: null
+    address: 'CALLE SEPTIMA NO. 10 ENTRE 10 Y AVENIDA LIBERTADORES'
+    logo: null
+    images: null
+    path: null
+    Entity: Entity_6
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_125:
+    code: be194fbb0a082c1e01b6bfab06db7591
+    name: 'CENTRO PROVINCIAL DE ATENCION SOCIAL A PERSONAS CON CONDUCTAS DEAMBULANTES DE HOLGUIN'
+    shortname: ''
+    specialcode: 321-1-14717
+    nit: null
+    comment: null
+    address: 'CARRETERA CENTRAL KM 6 1/2 OSCAR LUCERO'
+    logo: null
+    images: null
+    path: null
+    Location: Location_139
+    Entitytype: Entitytype_5
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_126:
+    code: 2fc6ba8d93f6e9dfdad49808651cdefa
+    name: 'Ministerio de Industrias'
+    shortname: MINDUS
+    specialcode: 102-0-00102
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_127:
+    code: cea73ac36a78072972257507c856c80e
+    name: 'Ministerio de Energía y Minas'
+    shortname: MINEM
+    specialcode: 104-0-00104
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_128:
+    code: c22f28771b7f7a03987551ea6c2f2040
+    name: 'Ministerio de la Industria Alimentaria'
+    shortname: MINAL
+    specialcode: 111-0-00111
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_129:
+    code: 6086e4b1388c4a2ae686f55eac107d66
+    name: 'Instituto Nacional de Recursos Hidráulicos'
+    shortname: INRH
+    specialcode: 113-0-00113
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_130:
+    code: ba78adcce78a7e84c1e3c2ce34ef7efe
+    name: 'Ministerio de la Construcción'
+    shortname: MICONS
+    specialcode: 126-0-00126
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_131:
+    code: 01760b62478c23f2cc5c78f65a003504
+    name: 'Ministerio de la Agricultura'
+    shortname: MINAG
+    specialcode: 131-0-00131
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_132:
+    code: 2b05d5d588358a7c38610abfaa2f2fdf
+    name: 'Ministerio del Transporte'
+    shortname: MITRANS
+    specialcode: 151-0-00151
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_133:
+    code: ade465d00e78ba4089702bb70360c896
+    name: 'Ministerio de Comunicaciones'
+    shortname: MINCOM
+    specialcode: 161-0-00161
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_134:
+    code: 11a8237112cb17dda48a861f6b196a96
+    name: 'Ministerio del  Comercio Interior'
+    shortname: MINCIN
+    specialcode: 171-0-00171
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_135:
+    code: 48c5dc1a1aeafa8373bfe3901f6afd78
+    name: 'Ministerio del Comercio Exterior y la Inversión Extranjera'
+    shortname: MINCEX
+    specialcode: 174-0-00174
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_136:
+    code: 46a834ed771480257993efea7e0c966e
+    name: 'Ministerio de Ciencia,Tecnología y Medio Ambiente'
+    shortname: CITMA
+    specialcode: 211-0-00211
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_137:
+    code: 7b382679f752486162007b5781e37633
+    name: 'Ministerio de Educación'
+    shortname: MINED
+    specialcode: 221-0-00221
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_138:
+    code: eef2b79e44e776a728d2d1804b139a88
+    name: 'Ministerio de Educación Superior'
+    shortname: MES
+    specialcode: 223-0-00223
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_139:
+    code: c72716fdb59ea25b5692970ce819caac
+    name: 'Instituto Cubano de Radio y Televisión'
+    shortname: ICRT
+    specialcode: 233-0-00233
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_140:
+    code: cdf59b443dba6e2777e96d1c6afc1622
+    name: 'Ministerio de  Cultura'
+    shortname: MINCULT
+    specialcode: 234-0-00234
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_141:
+    code: 5ce5d2ed1b3fb7fd3221992d4d0686d5
+    name: 'Ministerio de Salud Publica'
+    shortname: MINSAP
+    specialcode: 241-0-00241
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_142:
+    code: c2a8b1e558a4aa54d63fa2e94091a616
+    name: 'Instituto Nacional de Deportes,Educación Física y Recreación'
+    shortname: INDER
+    specialcode: 242-0-00242
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_143:
+    code: 32fe2490ae96233769c24dbabdef670d
+    name: 'Contraloría General de la República'
+    shortname: CGR
+    specialcode: 249-0-00249
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_144:
+    code: 1102eac4b26d063db9d66670a5bfb32d
+    name: 'Ministerio de Finanzas y Precios'
+    shortname: MFP
+    specialcode: 254-0-00254
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_145:
+    code: a0326310af25b2d2b79332784bb35983
+    name: 'Ministerio de Turismo'
+    shortname: MINTUR
+    specialcode: 256-0-00256
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_146:
+    code: dda233d758da2292ffd1cd53477657f3
+    name: 'Ministerio de Economía y Planificación'
+    shortname: MEP
+    specialcode: 261-0-00261
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_147:
+    code: edf05673d5213c647995561ec76e83bc
+    name: 'Ministerio de Trabajo y Seguridad Social'
+    shortname: MTSS
+    specialcode: 262-0-00262
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_148:
+    code: 686302f85c61ca0bca423dc9e2aca643
+    name: 'Ministerio de Justicia'
+    shortname: MINJUS
+    specialcode: 263-0-00263
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_149:
+    code: 42a4e009ed9230f5199352922d2c9cfa
+    name: 'Ministerio de Relaciones Exteriores'
+    shortname: MINREX
+    specialcode: 264-0-00264
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_150:
+    code: 270c5a5bde8b2320d4a63c9c80ba7a6f
+    name: 'Tribunal Supremo Popular'
+    shortname: TSP
+    specialcode: 267-0-00267
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_151:
+    code: 08c0b3c11b209bdd7fa1571af35554cd
+    name: 'Fiscalía General de la República'
+    shortname: FGR
+    specialcode: 268-0-00268
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_152:
+    code: aba7c69c9305d8df185a9d3887f56201
+    name: 'Ministerio de las Fuerzas Armadas Revolucionarias'
+    shortname: MINFAR
+    specialcode: 271-0-00271
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_153:
+    code: d50e9918eb1b0e93c298ab47b942a646
+    name: 'Ministerio del Interior'
+    shortname: MININT
+    specialcode: 272-0-00272
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_154:
+    code: 36c656d357f1d553c1c616f99fa0414b
+    name: 'Consejo de Estado'
+    shortname: CE
+    specialcode: 300-0-00300
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_155:
+    code: 8f9d10edeae00843475f980f6cbcc94f
+    name: 'Poder Popular Nacional - Asamblea Nacional'
+    shortname: ANPP
+    specialcode: 301-0-00301
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_156:
+    code: d451955d0beb330c57f47ade8eab5aea
+    name: 'Comité Ejecutivo del Consejo de Ministros'
+    shortname: CECM
+    specialcode: 302-0-00302
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_157:
+    code: 73dd5c4b049752b60c1ee09ae18b545c
+    name: 'Aduana General de la República Nivel Central'
+    shortname: AGR
+    specialcode: 304-0-00304
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_158:
+    code: c6556a164643c7fc4540c12ad8c2fb63
+    name: 'Consejo de Ministros'
+    shortname: CM
+    specialcode: 305-0-00305
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_159:
+    code: 7999b15338823baeb96e02d4b34e4a9e
+    name: 'Oficina del Historiador de la Ciudad de la Habana'
+    shortname: OHCH
+    specialcode: 306-0-00306
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_160:
+    code: 1bbd98219294166a032b25a9233e09b9
+    name: 'Poder Popular de Pinar del Rio'
+    shortname: PPPR
+    specialcode: 311-0-00311
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_161:
+    code: ee28ac647703fa88a20a10fcc12c3376
+    name: 'Poder Popular de La Habana'
+    shortname: PPLH
+    specialcode: 313-0-00313
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_162:
+    code: 1561594b0d0e56e1246ec3024a63d667
+    name: 'Poder Popular de Matanzas'
+    shortname: PPMT
+    specialcode: 314-0-00314
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_163:
+    code: edf36b01ee3360ef904a9a89c23ab4de
+    name: 'Poder Popular de Villa Clara'
+    shortname: PPVC
+    specialcode: 315-0-00315
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_164:
+    code: d469a5afb008e6ae7de6f14a782bbc0c
+    name: 'Poder Popular de Cienfuegos'
+    shortname: PPCF
+    specialcode: 316-0-00316
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_165:
+    code: c655325db61dc1e2a67628bbd94d10af
+    name: 'Poder Popular de Sancti Spíritus'
+    shortname: PPSS
+    specialcode: 317-0-00317
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_166:
+    code: 8cbe44c62a7aa377a1b3a25d9063df8c
+    name: 'Poder Popular de Ciego de Ávila'
+    shortname: PPCA
+    specialcode: 318-0-00318
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_167:
+    code: 5bbf4705d8660971867d41900619f8ae
+    name: 'Poder Popular de Camagüey'
+    shortname: PPCM
+    specialcode: 319-0-00319
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_168:
+    code: 73e6f7763d1b7a9565865b7d81ce1f48
+    name: 'Poder Popular de Las Tunas'
+    shortname: PPLT
+    specialcode: 320-0-00320
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_169:
+    code: 70d1875e9741e771a6510c1e659f0a09
+    name: 'Poder Popular de Holguín'
+    shortname: PPHG
+    specialcode: 321-0-00321
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_170:
+    code: 8b733e25820a8d6f4508f3387ab368ba
+    name: 'Poder Popular de Granma'
+    shortname: PPGR
+    specialcode: 322-0-00322
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_171:
+    code: 892cf58f00a954e6a358fa5b0811bdc4
+    name: 'Poder Popular de Santiago de Cuba'
+    shortname: PPSC
+    specialcode: 323-0-00323
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_172:
+    code: 1a35e995d5d4d76861eb68cbe700f659
+    name: 'Poder Popular de Guantánamo'
+    shortname: PPGT
+    specialcode: 324-0-00324
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_173:
+    code: b34d858fc24d86c7793085711f133adc
+    name: 'Poder Popular de Isla de la Juventud'
+    shortname: PPIJ
+    specialcode: 325-0-00325
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_174:
+    code: 411579694e0c62c48c07158f7050b07b
+    name: 'Poder Popular de Artemisa'
+    shortname: PPAR
+    specialcode: 326-0-00326
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_175:
+    code: 6678d68842a48c29cb038664cbb3111e
+    name: 'Poder Popular de Mayabeque'
+    shortname: PPMY
+    specialcode: 327-0-00327
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_176:
+    code: d64aff8a559c10879f7c0f476984659d
+    name: 'Partido Comunista de Cuba'
+    shortname: PCC
+    specialcode: 501-0-00501
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_177:
+    code: 7a7d600002e5d51bce2de8b18c2bb8c1
+    name: 'Unión de Jóvenes Comunistas'
+    shortname: UJC
+    specialcode: 502-0-00502
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_178:
+    code: 39a6584fe0a5ded87302f3f98ffce722
+    name: 'Organización de Pioneros José Marti'
+    shortname: OPJM
+    specialcode: 503-0-00503
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_179:
+    code: 63ec6460b57024355f2c2b5af61c777c
+    name: 'Central de Trabajadores de Cuba'
+    shortname: CTC
+    specialcode: 504-0-00504
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_180:
+    code: 29f88188981bde5c6f1fa78b0b9165cd
+    name: 'Federación de Mujeres Cubanas'
+    shortname: FMC
+    specialcode: 505-0-00505
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_181:
+    code: 9c79f4016ce3e1d76bfcb31a34ddfae7
+    name: 'Comité de Defensa de la Revolución'
+    shortname: CDR
+    specialcode: 506-0-00506
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_182:
+    code: 1221501053dc4bdf7831127ee72a15af
+    name: 'Asociación Nacional de Agricultores Pequeños'
+    shortname: ANAP
+    specialcode: 507-0-00507
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_183:
+    code: 24495e2ab7ec25c1307eebe56d67bf2c
+    name: 'Grupo Empresarial PALCO'
+    shortname: 'GRUPO PALCO'
+    specialcode: 654-0-00654
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_184:
+    code: fd24dfc5d37878796db464f7d0118ff9
+    name: 'GRUPO AZUCARERO'
+    shortname: AZCUBA
+    specialcode: 658-0-00658
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_185:
+    code: 732feefa55ba835e7f680cb44db24124
+    name: 'Grupo de las Industrias Biotecnológica y Farmacéutica'
+    shortname: BIOCUBAFARMA
+    specialcode: 692-0-00692
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_186:
+    code: 94808bafbf8386585acb7b700d8b3213
+    name: 'GRUPO EMPRESARIAL CENTRO HISTORICO'
+    shortname: 'GRUPO CTROHIST'
+    specialcode: 700-0-00700
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_187:
+    code: eb12f8c220da8c01ef20206a20c79a83
+    name: 'No se subordina a un Organismo'
+    shortname: NOSUBORDINAD
+    specialcode: 998-0-00998
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null
+  Entity_188:
+    code: 68350e4c5aa0cd609a874308e27f2f67
+    name: 'Organismo Desconocido'
+    shortname: DESCONOCIDO
+    specialcode: 999-0-00999
+    nit: null
+    comment: null
+    address: null
+    logo: null
+    images: null
+    path: null
+    #contacts: null
+    #accounts: null
+    #metadata: null

@@ -1,0 +1,18 @@
+Contacttype:
+  TelefonoFijo:
+    code: "<?php echo md5(strtoupper('Teléfono Fijo')) ?>"
+    name: 'Teléfono Fijo'
+#    comment: \+(?:[0-9] ?){6, 14}[0-9]
+  TelefonoMovil:
+    code: "<?php echo md5(strtoupper('Teléfono Móvil')) ?>"
+    name: 'Teléfono Móvil'
+#    comment: ([1234567890]*)+
+  Fax:
+    code: "<?php echo md5(strtoupper('Fax')) ?>"
+    name: 'Fax'
+#    comment: ([1234567890]*)+
+  Email:
+    code: "<?php echo md5(strtoupper('Correo electrónico')) ?>"
+    name: 'Correo electrónico'
+#    comment: /^([\w\-\'\-]+)(\.[\w-\'\-]+)*@([\w\-]+\.){1,5}([A-Za-z]){2,4}$/
+    comment: ([\w\-\'\-]+)(\.[\w-\'\-]+)*@([\w\-]+\.){1,5}([A-Za-z]){2,4}

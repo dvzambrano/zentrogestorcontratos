@@ -1,0 +1,360 @@
+sfGuardUser:
+  User_admin:
+    first_name:  Donel
+    last_name:  Vazquez Zambrano
+    email_address:  zentro@nauta.cu
+    username:       admin
+    password:       admin
+    is_super_admin: true
+    Groups:         [AdminGroup]
+  User_advanced:
+    first_name:  Reynerio
+    last_name:  Cruz Hechavarria
+    email_address:  cobransa@nauta.cu
+    username:       reynerio
+    password:       reynerio
+    Groups:         [AdvancedGroup]
+  User_basic:
+    first_name:  Alejandro
+    last_name:  Perez Ramos
+    email_address:  alejandro@domain.com
+    username:       alejandro
+    password:       alejandro
+    Groups:         [BasicGroup]
+
+sfGuardGroup:
+  AdminGroup:
+    name:           admin
+    description:    SuperAdmin
+    Permissions:    [managenationality, managepaymentinstrument, manageformat, manageperson, managearea, managecontractstatus, managereclamationstatus, managecontacttype, manageactivity, managereminder, manageentity, managelocation, manageentitytype, managecurrency, managedocumenttype, managereclamationtype, managecontracttype, manageposition, managecontract, manageconfiguration, managemodule, manageuser, managelog, managefiles, managecharts, managecalendar]
+  AdvancedGroup:
+    name:           advanced
+    description:    Administrador(a)
+    Permissions:    [managenationality, managepaymentinstrument, manageformat, manageperson, managearea, managecontractstatus, managereclamationstatus, manageactivity, managereminder, manageentity, managelocation, manageentitytype, managecurrency, managedocumenttype, managereclamationtype, managecontracttype, manageposition, managecontract, manageconfiguration, manageuser, managelog, managecharts, managecalendar]
+  BasicGroup:
+    name:           basic
+    description:    Usuario(a)
+    Permissions:    [managenationality, managepaymentinstrument, manageperson, managearea, managecontractstatus, managereclamationstatus, manageactivity, manageentity, managelocation, manageentitytype, managecurrency, managedocumenttype, managereclamationtype, managecontracttype, manageposition, managecontract]
+
+sfGuardPermission:
+  managemodule:
+    name:           managemodule
+    description:    'Administrar módulos'
+  managemoduleadd:
+    name:           managemoduleadd
+    description:    'Administrar módulos (adicionar)'
+  managemoduleedit:
+    name:           managemoduleedit
+    description:    'Administrar módulos (editar)'
+  managemoduledelete:
+    name:           managemoduledelete
+    description:    'Administrar módulos (eliminar)'
+    
+  manageuser:
+    name:           manageuser
+    description:    'Administrar usuarios'
+  manageuseradd:
+    name:           manageuseradd
+    description:    'Administrar usuarios (adicionar)'
+  manageuseredit:
+    name:           manageuseredit
+    description:    'Administrar usuarios (editar)'
+  manageuserdelete:
+    name:           manageuserdelete
+    description:    'Administrar usuarios (eliminar)'
+
+  manageperson:
+    name:           manageperson
+    description:    'Administrar personas'
+  managepersonadd:
+    name:           managepersonadd
+    description:    'Administrar personas (adicionar)'
+  managepersonedit:
+    name:           managepersonedit
+    description:    'Administrar personas (editar)'
+  managepersondelete:
+    name:           managepersondelete
+    description:    'Administrar personas (eliminar)'
+
+  managefiles:
+    name:           managefiles
+    description:    'Administrar archivos'
+
+  managelog:
+    name:           managelog
+    description:    'Administrar trazas'
+
+  managecharts:
+    name:           managecharts
+    description:    'Administrar graficos'
+
+  managecalendar:
+    name:           managecalendar
+    description:    'Administrar calendario'
+
+  manageconfiguration:
+    name:           manageconfiguration
+    description:    'Administrar configuracion global'
+    
+  managecontacttype:
+    name:           managecontacttype
+    description:    'Administrar tipos de contacto'
+  managecontacttypeadd:
+    name:           managecontacttypeadd
+    description:    'Administrar tipos de contacto (adicionar)'
+  managecontacttypeedit:
+    name:           managecontacttypeedit
+    description:    'Administrar tipos de contacto (editar)'
+  managecontacttypedelete:
+    name:           managecontacttypedelete
+    description:    'Administrar tipos de contacto (eliminar)'
+    
+  managelocation:
+    name:           managelocation
+    description:    'Administrar localizaciones'
+  managelocationadd:
+    name:           managelocationadd
+    description:    'Administrar localizaciones (adicionar)'
+  managelocationedit:
+    name:           managelocationedit
+    description:    'Administrar localizaciones (editar)'
+  managelocationdelete:
+    name:           managelocationdelete
+    description:    'Administrar localizaciones (eliminar)'
+    
+  manageentitytype:
+    name:           manageentitytype
+    description:    'Administrar tipos de entidad'
+  manageentitytypeadd:
+    name:           manageentitytypeadd
+    description:    'Administrar tipos de entidad (adicionar)'
+  manageentitytypeedit:
+    name:           manageentitytypeedit
+    description:    'Administrar tipos de entidad (editar)'
+  manageentitytypedelete:
+    name:           manageentitytypedelete
+    description:    'Administrar tipos de entidad (eliminar)'
+    
+  managecurrency:
+    name:           managecurrency
+    description:    'Administrar monedas'
+  managecurrencyadd:
+    name:           managecurrencyadd
+    description:    'Administrar monedas (adicionar)'
+  managecurrencyedit:
+    name:           managecurrencyedit
+    description:    'Administrar monedas (editar)'
+  managecurrencydelete:
+    name:           managecurrencydelete
+    description:    'Administrar monedas (eliminar)'
+    
+  managenationality:
+    name:           managenationality
+    description:    'Administrar nacionalidades'
+  managenationalityadd:
+    name:           managenationalityadd
+    description:    'Administrar nacionalidades (adicionar)'
+  managenationalityedit:
+    name:           managenationalityedit
+    description:    'Administrar nacionalidades (editar)'
+  managenationalitydelete:
+    name:           managenationalitydelete
+    description:    'Administrar nacionalidades (eliminar)'
+    
+  managepaymentinstrument:
+    name:           managepaymentinstrument
+    description:    'Administrar instrumentos de pago'
+  managepaymentinstrumentadd:
+    name:           managepaymentinstrumentadd
+    description:    'Administrar instrumentos de pago (adicionar)'
+  managepaymentinstrumentedit:
+    name:           managepaymentinstrumentedit
+    description:    'Administrar instrumentos de pago (editar)'
+  managepaymentinstrumentdelete:
+    name:           managepaymentinstrumentdelete
+    description:    'Administrar instrumentos de pago (eliminar)'
+    
+  managedocumenttype:
+    name:           managedocumenttype
+    description:    'Administrar tipos de documentos'
+  managedocumenttypeadd:
+    name:           managedocumenttypeadd
+    description:    'Administrar tipos de documentos (adicionar)'
+  managedocumenttypeedit:
+    name:           managedocumenttypeedit
+    description:    'Administrar tipos de documentos (editar)'
+  managedocumenttypedelete:
+    name:           managedocumenttypedelete
+    description:    'Administrar tipos de documentos (eliminar)'
+    
+  managereclamationtype:
+    name:           managereclamationtype
+    description:    'Administrar tipos de reclamación'
+  managereclamationtypeadd:
+    name:           managereclamationtypeadd
+    description:    'Administrar tipos de reclamación (adicionar)'
+  managereclamationtypeedit:
+    name:           managereclamationtypeedit
+    description:    'Administrar tipos de reclamación (editar)'
+  managereclamationtypedelete:
+    name:           managereclamationtypedelete
+    description:    'Administrar tipos de reclamación (eliminar)'
+    
+  manageactivity:
+    name:           manageactivity
+    description:    'Administrar actividades'
+  manageactivityadd:
+    name:           manageactivityadd
+    description:    'Administrar actividades (adicionar)'
+  manageactivityedit:
+    name:           manageactivityedit
+    description:    'Administrar actividades (editar)'
+  manageactivitydelete:
+    name:           manageactivitydelete
+    description:    'Administrar actividades (eliminar)'
+    
+  managecontracttype:
+    name:           managecontracttype
+    description:    'Administrar tipos de contrato'
+  managecontracttypeadd:
+    name:           managecontracttypeadd
+    description:    'Administrar tipos de contrato (adicionar)'
+  managecontracttypeedit:
+    name:           managecontracttypeedit
+    description:    'Administrar tipos de contrato (editar)'
+  managecontracttypedelete:
+    name:           managecontracttypedelete
+    description:    'Administrar tipos de contrato (eliminar)'
+    
+  manageposition:
+    name:           manageposition
+    description:    'Administrar cargos de firmante'
+  managepositionadd:
+    name:           managepositionadd
+    description:    'Administrar cargos de firmante (adicionar)'
+  managepositionedit:
+    name:           managepositionedit
+    description:    'Administrar cargos de firmante (editar)'
+  managepositiondelete:
+    name:           managepositiondelete
+    description:    'Administrar cargos de firmante (eliminar)'
+    
+  managecontract:
+    name:           managecontract
+    description:    'Administrar contrato'
+  managecontractadd:
+    name:           managecontractadd
+    description:    'Administrar contrato (adicionar)'
+  managecontractedit:
+    name:           managecontractedit
+    description:    'Administrar contrato (editar)'
+  managecontractdelete:
+    name:           managecontractdelete
+    description:    'Administrar contrato (eliminar)'
+    
+  manageentity:
+    name:           manageentity
+    description:    'Administrar entidades'
+  manageentityadd:
+    name:           manageentityadd
+    description:    'Administrar entidades (adicionar)'
+  manageentityedit:
+    name:           manageentityedit
+    description:    'Administrar entidades (editar)'
+  manageentitydelete:
+    name:           manageentitydelete
+    description:    'Administrar entidades (eliminar)'
+  manageselfentity:
+    name:           manageselfentity
+    description:    'Administrar propia entidad'
+    
+  managereminder:
+    name:           managereminder
+    description:    'Administrar recordatorios'
+  managereminderadd:
+    name:           managereminderadd
+    description:    'Administrar recordatorios (adicionar)'
+  managereminderedit:
+    name:           managereminderedit
+    description:    'Administrar recordatorios (editar)'
+  managereminderdelete:
+    name:           managereminderdelete
+    description:    'Administrar recordatorios (eliminar)'
+    
+  managecontacttype:
+    name:           managecontacttype
+    description:    'Administrar tipos de contacto'
+  managecontacttypeadd:
+    name:           managecontacttypeadd
+    description:    'Administrar tipos de contacto (adicionar)'
+  managecontacttypeedit:
+    name:           managecontacttypeedit
+    description:    'Administrar tipos de contacto (editar)'
+  managecontacttypedelete:
+    name:           managecontacttypedelete
+    description:    'Administrar tipos de contacto (eliminar)'
+    
+  managecontractstatus:
+    name:           managecontractstatus
+    description:    'Administrar estados de contrato'
+  managecontractstatusadd:
+    name:           managecontractstatusadd
+    description:    'Administrar estados de contrato (adicionar)'
+  managecontractstatusedit:
+    name:           managecontractstatusedit
+    description:    'Administrar estados de contrato (editar)'
+  managecontractstatusdelete:
+    name:           managecontractstatusdelete
+    description:    'Administrar estados de contrato (eliminar)'
+    
+  managereclamationstatus:
+    name:           managereclamationstatus
+    description:    'Administrar estados de contrato'
+  managereclamationstatusadd:
+    name:           managereclamationstatusadd
+    description:    'Administrar estados de contrato (adicionar)'
+  managereclamationstatusedit:
+    name:           managereclamationstatusedit
+    description:    'Administrar estados de contrato (editar)'
+  managereclamationstatusdelete:
+    name:           managereclamationstatusdelete
+    description:    'Administrar estados de contrato (eliminar)'
+
+  managearea:
+    name:           managearea
+    description:    'Administrar áreas'
+  manageareaadd:
+    name:           manageareaadd
+    description:    'Administrar áreas (adicionar)'
+  manageareaedit:
+    name:           manageareaedit
+    description:    'Administrar áreas (editar)'
+  manageareadelete:
+    name:           manageareadelete
+    description:    'Administrar áreas (eliminar)'
+
+  manageperson:
+    name:           manageperson
+    description:    'Administrar personas'
+  managepersonadd:
+    name:           managepersonadd
+    description:    'Administrar personas (adicionar)'
+  managepersonedit:
+    name:           managepersonedit
+    description:    'Administrar personas (editar)'
+  managepersondelete:
+    name:           managepersondelete
+    description:    'Administrar personas (eliminar)'
+    
+  manageformat:
+    name:           manageformat
+    description:    'Administrar formatos'
+  manageformatadd:
+    name:           manageformatadd
+    description:    'Administrar formatos (adicionar)'
+  manageformatedit:
+    name:           manageformatedit
+    description:    'Administrar formatos (editar)'
+  manageformatdelete:
+    name:           manageformatdelete
+    description:    'Administrar formatos (eliminar)'

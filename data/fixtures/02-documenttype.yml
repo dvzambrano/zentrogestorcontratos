@@ -1,0 +1,7 @@
+Documenttype:
+  Resolution:
+    code: "<?php echo md5(strtoupper('Resolución')) ?>"
+    name: 'Resolución'
+  CreationDocument:
+    code: "<?php echo md5(strtoupper('Documento de creación')) ?>"
+    name: 'Documento de creación'

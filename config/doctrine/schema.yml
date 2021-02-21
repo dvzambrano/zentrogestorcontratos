@@ -1,0 +1,434 @@
+Activity:
+  connection: doctrine
+  tableName: zgctr_activity
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+
+Documenttype:
+  connection: doctrine
+  tableName: zgctr_documenttype
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+
+Entitytype:
+  connection: doctrine
+  tableName: zgctr_entitytype
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+    specialcode:
+      type: string(50)
+
+
+Location:
+  connection: doctrine
+  tableName: zgctr_location
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+    specialcode:
+      type: string(50)
+    parentid:
+      type: integer()
+      notnull: false
+    path:
+      type: string()
+    icon:
+      type: string()
+  relations:
+    Location: { onDelete: CASCADE, local: parentid, foreign: id, foreignAlias: Locations }
+
+
+Nationality:
+  connection: doctrine
+  tableName: zgctr_nationality
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+
+# end-contratos-schema
+
+Person:
+  connection: doctrine
+  tableName: zab_person
+  columns:
+    code:
+      type: string(50)
+      notnull: false
+      unique: true
+    comment:
+      type: string()
+    picture:
+      type: string()
+    profile:
+      type: string()
+    sf_guard_user_id:
+      type: integer
+  relations:
+    sfGuardUser: { onDelete: CASCADE, local: sf_guard_user_id, foreign: id }
+    Position: { class: Position, refClass: PersonPositionRelation, local: person_id, foreign: position_id, foreignAlias: Persons }
+
+Calendar:
+  connection: doctrine
+  tableName: zab_calendar
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+    color:
+      type: integer
+      default: 0
+  relations:
+    Contractstatus: { onDelete: CASCADE, local: id, foreign: calendarid, type: one, foreignAlias: Calendar }
+Event:
+  connection: doctrine
+  tableName: zab_event
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+    allday:
+      type: boolean
+      default: 0
+    start:
+      type: datetime
+      notnull: true
+    end:
+      type: datetime
+      notnull: true
+    calendarid:
+      type: integer
+    reminderid:
+      type: integer
+    location:
+      type: string()
+    link:
+      type: string()
+  relations:
+    Calendar: { onDelete: CASCADE, local: calendarid, foreign: id, foreignAlias: Events }
+    Reminder: { onDelete: CASCADE, local: reminderid, foreign: id, foreignAlias: Events }
+    Contract: { onDelete: CASCADE, local: id, foreign: eventid, type: one, foreignAlias: Event }
+
+
+
+# ------------------------------------------------------------------------------
+
+# Paymentinstrument-START*/
+Paymentinstrument:
+  connection: doctrine
+  tableName: zgctr_paymentinstrument
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+# Paymentinstrument-END*/
+
+# Reclamationtype-START*/
+Reclamationtype:
+  connection: doctrine
+  tableName: zgctr_reclamationtype
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+# Reclamationtype-END*/
+
+Reclamationstatus:
+  connection: doctrine
+  tableName: zgctr_reclamationstatus
+  columns:
+    customcolor:
+      type: string()
+    calendarid:
+      type: integer  
+    entityid:
+      type: integer 
+    iscomplete:
+      type: boolean
+      default: 0
+    issuspended:
+      type: boolean
+      default: 0
+  relations:
+    ReclamationStatues: { class: Reclamationstatus, refClass: ReclamationstatusRelation, local: fromstatus_id, foreign: tostatus_id }
+    Calendar: { onDelete: CASCADE, local: calendarid, foreign: id, type: one, foreignAlias: Reclamationstatus }
+ReclamationstatusRelation:
+  connection: doctrine
+  tableName: zgctr_reclamationstatusrelation
+  columns:
+    fromstatus_id:
+      type: integer
+      primary: true
+    tostatus_id:
+      type: integer
+      primary: true
+  relations:
+    FromReclamationstatus: { class: Reclamationstatus, onDelete: CASCADE, local: fromstatus_id, foreign: id }
+    ToReclamationstatus: { class: Reclamationstatus, onDelete: CASCADE, local: tostatus_id, foreign: id }
+
+
+# Contracttype-START*/
+Contracttype:
+  connection: doctrine
+  tableName: zgctr_contracttype
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+# Contracttype-END*/
+
+# Area-START*/
+Area:
+  connection: doctrine
+  tableName: zgctr_area
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+    entityid:
+      type: integer
+      notnull: false
+# Area-END*/
+
+Entity:
+  connection: doctrine
+  tableName: zab_entity
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(200)
+      notnull: true
+    shortname:
+      type: string(130)
+    specialcode:
+      type: string(50)
+    nit:
+      type: string(50)
+    comment:
+      type: string()
+      notnull: false
+    address:
+      type: string()
+    logo:
+      type: string()
+    images:
+      type: string()
+    path:
+      type: string()
+    parentid:
+      type: integer()
+      notnull: false
+    profile:
+      type: string
+    locationid:
+      type: integer()
+      notnull: false
+    nationalityid:
+      type: integer()
+      notnull: false
+    entitytypeid:
+      type: integer()
+      notnull: false
+  relations:
+    Entity: { onDelete: CASCADE, local: parentid, foreign: id, foreignAlias: Entities }
+    Location: { onDelete: CASCADE, local: locationid, foreign: id, foreignAlias: Entities }
+    Nationality: { onDelete: CASCADE, local: nationalityid, foreign: id, foreignAlias: Entities }
+    Entitytype: { onDelete: CASCADE, local: entitytypeid, foreign: id, foreignAlias: Entities }
+    Users: { class: sfGuardUser, refClass: EntityUserRelation, local: entity_id, foreign: sf_guard_user_id, type: many }
+
+Contractstatus:
+  connection: doctrine
+  tableName: zgctr_contractstatus
+  columns:
+    customcolor:
+      type: string()
+    calendarid:
+      type: integer  
+    entityid:
+      type: integer 
+    iscomplete:
+      type: boolean
+      default: 0
+    issuspended:
+      type: boolean
+      default: 0
+  relations:
+    ContractStatues: { class: Contractstatus, refClass: ContractstatusRelation, local: fromstatus_id, foreign: tostatus_id }
+    Calendar: { onDelete: CASCADE, local: calendarid, foreign: id, type: one, foreignAlias: Contractstatus }
+ContractstatusRelation:
+  connection: doctrine
+  tableName: zgctr_contractstatusrelation
+  columns:
+    fromstatus_id:
+      type: integer
+      primary: true
+    tostatus_id:
+      type: integer
+      primary: true
+  relations:
+    FromContractstatus: { class: Contractstatus, onDelete: CASCADE, local: fromstatus_id, foreign: id }
+    ToContractstatus: { class: Contractstatus, onDelete: CASCADE, local: tostatus_id, foreign: id }
+    
+Contract:
+  actAs:
+    Timestampable: ~
+  connection: doctrine
+  tableName: zgctr_contract
+  columns:  
+    duration:
+      type: decimal
+    manuallyprogrammed:
+      type: boolean
+      default: 0
+    percentage:
+      type: decimal
+    contracttypeid:
+      type: integer
+    contractstatusid:
+      type: integer 
+    areaid:
+      type: integer 
+    providerid:
+      type: integer
+    provideruserid:
+      type: integer   
+    clientid:
+      type: integer  
+    clientuserid:
+      type: integer   
+    paymentwayid:
+      type: integer  
+    paymentplaceid:
+      type: integer  
+    eventid:
+      type: integer  
+    created_by:
+      type: integer 
+    finished:
+      type: datetime 
+    paymentinstruments:
+      type: string()
+    path:
+      type: string()
+    profile:
+      type: string
+    entityid:
+      type: integer 
+  relations:    
+    Event: { onDelete: CASCADE, local: eventid, foreign: id, type: one, foreignAlias: Contract }
+    Contracttype: { onDelete: CASCADE, local: contracttypeid, foreign: id, foreignAlias: Contracts }
+    Contractstatus: { onDelete: SET NULL, local: contractstatusid, foreign: id, foreignAlias: Contracts }
+    Area: { onDelete: SET NULL, local: areaid, foreign: id, foreignAlias: Contracts }
+    Creator: { class: Person, onDelete: CASCADE, local: created_by, foreign: id, foreignAlias: ContractsIhaveCreated }
+    Provider: { class: Entity, onDelete: CASCADE, local: providerid, foreign: id, foreignAlias: ContractsImProvider }
+    ProviderUser: { class: sfGuardUser, onDelete: CASCADE, local: provideruserid, foreign: id, foreignAlias: ContractsSignedAsProvider }
+    Client: { class: Entity, onDelete: CASCADE, local: clientid, foreign: id, foreignAlias: ContractsImClient }
+    ClientUser: { class: sfGuardUser, onDelete: CASCADE, local: clientuserid, foreign: id, foreignAlias: ContractsSignedAsClient }
+
+
+Format:
+  connection: doctrine
+  tableName: zgctr_format
+  columns:
+    code:
+      type: string(50)
+      notnull: true
+      unique: true
+    name:
+      type: string(130)
+      notnull: true
+    comment:
+      type: string()
+      notnull: false
+    variables:
+      type: string()
+    content:
+      type: clob
+    entityid:
+      type: integer
+      notnull: false

@@ -1,0 +1,31 @@
+Paymentinstrument:
+  DineroEfectivo:
+    code: "<?php echo md5(strtoupper('Dinero efectivo')) ?>"
+    name: 'Dinero efectivo'
+  TransferenciaBancaria:
+    code: "<?php echo md5(strtoupper('Transferencia bancaria')) ?>"
+    name: 'Transferencia bancaria'
+  ChequeCertificado:
+    code: "<?php echo md5(strtoupper('Cheque certificado')) ?>"
+    name: 'Cheque certificado'
+  ChequeVoucher:
+    code: "<?php echo md5(strtoupper('Cheque voucher')) ?>"
+    name: 'Cheque voucher'
+  ChequeGerencia:
+    code: "<?php echo md5(strtoupper('Cheque de gerencia')) ?>"
+    name: 'Cheque de gerencia'
+  OrdenCobro:
+    code: "<?php echo md5(strtoupper('Orden de cobro')) ?>"
+    name: 'Orden de cobro'
+  TarjetaDebitoCredito:
+    code: "<?php echo md5(strtoupper('Tarjeta débito o crédito')) ?>"
+    name: 'Tarjeta débito o crédito'
+  CartaCreditoLocal:
+    code: "<?php echo md5(strtoupper('Carta de crédito local')) ?>"
+    name: 'Carta de crédito local'
+  LetraCambio:
+    code: "<?php echo md5(strtoupper('Letra de cambio')) ?>"
+    name: 'Letra de cambio'
+  Pagare:
+    code: "<?php echo md5(strtoupper('Pagaré')) ?>"
+    name: 'Pagaré'

@@ -1,0 +1,48 @@
+Revisar q al adicionar una entidad en el integral no se crea con el REUP 102-0-12337
+No se estan guardando bien los cargos directamente al crear un director
+Valorar permitir en una entidad varios telefonos fijos y varias cuentas en el mismo banco
+
+
+
+
+En el formulario de plantillas hay q poner el asterisco de obligatorio en el Nombre
+
+Existen contratos q se vencen en el mes en curso
+Mes natural
+Una sola vez al dia
+
+
+
+
+Estados de contrato
+    Edicion
+    Negocicion
+    Pendiente (a la firma)
+    Ejecucion
+    Ejecutado
+    Vencido
+    Archivado
+
+TRATOS
+Elementos inexistentes 
+    en contrato para q sean defectos q impiden firmarlos (cuño, firma, documento acreditativo)
+
+Cargo
+    especifican si es directivo
+    especifican si es cargo unico
+
+Accion
+    especifican si requiere q sea un cargo directivo (firmar contrato, recoger factura)
+
+MAS ADELANTE
+Valorar suplementar contratos (un suplemento es un contrato hijo de otro)(esto debe recalcular precios etc)
+Valorar opcion de editar datos de las entidades desde la interfaz de contrato
+Exportar contratos a excel
+Valorar hacer importacion de carga inicial cuando una entidad nunca se ha usado (ahi irian los estados, etc)
+
+RECLAMACION 
+tiene fecha, tipo, estado, texto de lo q se reclama, documentos de evidencia, respuesta
+
+Reynerio quiere
+incluir servicios para q se forme el precio
+Generar numero de contrato automaticamente
